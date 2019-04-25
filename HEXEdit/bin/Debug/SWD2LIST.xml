@@ -1,0 +1,3290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+<xsd:element name="dataroot">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="SWD2LIST" minOccurs="0" maxOccurs="unbounded"/>
+</xsd:sequence>
+<xsd:attribute name="generated" type="xsd:dateTime"/>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="SWD2LIST">
+<xsd:annotation>
+<xsd:appinfo>
+<od:index index-name="PrimaryKey" index-key="HEX " primary="yes" unique="yes" clustered="no"/>
+<od:index index-name="NAME" index-key="NAME " primary="no" unique="no" clustered="no"/>
+<od:index index-name="TYPE" index-key="TYPE " primary="no" unique="no" clustered="no"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="SN" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"/>
+<xsd:element name="TYPE" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="HEX" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NAME" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="MEMO" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="SWD2LIST.xsd" generated="2017-04-19T16:01:24">
+<SWD2LIST>
+<SN>1</SN>
+<TYPE>人類</TYPE>
+<HEX>AA 01</HEX>
+<NAME>囚犯</NAME>
+<MEMO>『囚犯』囚犯是被強盜或山賊所拘禁的人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>2</SN>
+<TYPE>人類</TYPE>
+<HEX>B2 01</HEX>
+<NAME>農夫</NAME>
+<MEMO>『農夫』法言．先知中指出『禽獸食人之食，土木衣人之帛，穀人不足於晝，絲人不足於夜，之謂惡政。』穀人，農夫也。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>3</SN>
+<TYPE>人類</TYPE>
+<HEX>B3 01</HEX>
+<NAME>獵人</NAME>
+<MEMO>『獵人』獵人在山林中以狩獵維持生計。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>4</SN>
+<TYPE>人類</TYPE>
+<HEX>B4 01</HEX>
+<NAME>蠻族女</NAME>
+<MEMO>『蠻族女』蠻族是邊境蠻荒地區未受教化種族的統稱。這些女子個個力大無比，十分強悍。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>5</SN>
+<TYPE>人類</TYPE>
+<HEX>B5 01</HEX>
+<NAME>女丑</NAME>
+<MEMO>『女丑』擁有神通的女巫。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>6</SN>
+<TYPE>人類</TYPE>
+<HEX>B6 01</HEX>
+<NAME>女劍客</NAME>
+<MEMO>『女丑』擁有神通的女巫。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>7</SN>
+<TYPE>人類</TYPE>
+<HEX>B7 01</HEX>
+<NAME>俠客</NAME>
+<MEMO>『俠客』以除魔衛道為己任的武術家。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>8</SN>
+<TYPE>人類</TYPE>
+<HEX>B8 01</HEX>
+<NAME>俠客</NAME>
+<MEMO>『俠客』以除魔衛道為己任的武術家。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>9</SN>
+<TYPE>人類</TYPE>
+<HEX>B9 01</HEX>
+<NAME>道士</NAME>
+<MEMO>『道士』修習道家法術的方外之人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>10</SN>
+<TYPE>人類</TYPE>
+<HEX>BA 01</HEX>
+<NAME>道士</NAME>
+<MEMO>『道士』修習道家法術的方外之人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>11</SN>
+<TYPE>人類</TYPE>
+<HEX>BB 01</HEX>
+<NAME>強盜</NAME>
+<MEMO>『強盜』落草為寇，據地稱王的強盜，常常劫掠百姓。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>12</SN>
+<TYPE>人類</TYPE>
+<HEX>BC 01</HEX>
+<NAME>強盜</NAME>
+<MEMO>『強盜』落草為寇，據地稱王的強盜，常常劫掠百姓。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>13</SN>
+<TYPE>人類</TYPE>
+<HEX>BD 01</HEX>
+<NAME>強盜</NAME>
+<MEMO>『強盜』落草為寇，據地稱王的強盜，常常劫掠百姓。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>14</SN>
+<TYPE>人類</TYPE>
+<HEX>BE 01</HEX>
+<NAME>強盜</NAME>
+<MEMO>『強盜』落草為寇，據地稱王的強盜，常常劫掠百姓。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>15</SN>
+<TYPE>人類</TYPE>
+<HEX>BF 01</HEX>
+<NAME>逃犯</NAME>
+<MEMO>『逃犯』逃犯是犯了罪，被捉到又不服審判，而私自潛逃的兇徒！</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>16</SN>
+<TYPE>人類</TYPE>
+<HEX>C0 01</HEX>
+<NAME>瘋和尚</NAME>
+<MEMO>『瘋和尚』關於瘋和尚，無人知其來歷，雖是和尚卻葷素不拘，卻酒肉不忌，行為荒誕。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>17</SN>
+<TYPE>人類</TYPE>
+<HEX>C1 01</HEX>
+<NAME>飛賊</NAME>
+<MEMO>『飛賊』能夠飛簷走璧的賊，謂之飛賊。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>18</SN>
+<TYPE>人類</TYPE>
+<HEX>C2 01</HEX>
+<NAME>蠱使</NAME>
+<MEMO>『蠱使』擅長養蠱，驅蠱放出妖邪之氣害人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>19</SN>
+<TYPE>人類</TYPE>
+<HEX>C3 01</HEX>
+<NAME>伏魔道士</NAME>
+<MEMO>『伏魔道士』伏魔劍派的道士。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>20</SN>
+<TYPE>未知</TYPE>
+<HEX>5C 01</HEX>
+<NAME>巴蛇</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>21</SN>
+<TYPE>未知</TYPE>
+<HEX>5D 01</HEX>
+<NAME>壺中仙</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>22</SN>
+<TYPE>未知</TYPE>
+<HEX>60 01</HEX>
+<NAME>巴蛇</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>23</SN>
+<TYPE>未知</TYPE>
+<HEX>8F 01</HEX>
+<NAME>契愈</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>24</SN>
+<TYPE>未知</TYPE>
+<HEX>94 01</HEX>
+<NAME>猴精</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>25</SN>
+<TYPE>未知</TYPE>
+<HEX>F8 01</HEX>
+<NAME>寨主</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>26</SN>
+<TYPE>未知</TYPE>
+<HEX>F9 01</HEX>
+<NAME>武德</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>27</SN>
+<TYPE>未知</TYPE>
+<HEX>FA 01</HEX>
+<NAME>武承</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>28</SN>
+<TYPE>未知</TYPE>
+<HEX>FB 01</HEX>
+<NAME>蛟龜</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>29</SN>
+<TYPE>未知</TYPE>
+<HEX>FC 01</HEX>
+<NAME>火鳳凰</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>30</SN>
+<TYPE>未知</TYPE>
+<HEX>FD 01</HEX>
+<NAME>軒轅劍俠</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>31</SN>
+<TYPE>未知</TYPE>
+<HEX>FE 01</HEX>
+<NAME>係（？）</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>32</SN>
+<TYPE>未知</TYPE>
+<HEX>FF 01</HEX>
+<NAME>蛟龜元神</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>33</SN>
+<TYPE>未知</TYPE>
+<HEX>00 02</HEX>
+<NAME>匏鴞</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>34</SN>
+<TYPE>未知</TYPE>
+<HEX>01 02</HEX>
+<NAME>風生獸</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>35</SN>
+<TYPE>未知</TYPE>
+<HEX>02 02</HEX>
+<NAME>蝙蝠精</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>36</SN>
+<TYPE>未知</TYPE>
+<HEX>03 02</HEX>
+<NAME>屍生鬼</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>37</SN>
+<TYPE>未知</TYPE>
+<HEX>04 02</HEX>
+<NAME>瘴生鬼</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>38</SN>
+<TYPE>未知</TYPE>
+<HEX>05 02</HEX>
+<NAME>蛟龜</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>39</SN>
+<TYPE>未知</TYPE>
+<HEX>06 02</HEX>
+<NAME>軒轅劍俠</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>40</SN>
+<TYPE>未知</TYPE>
+<HEX>07 02</HEX>
+<NAME>冥蛇</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>41</SN>
+<TYPE>未知</TYPE>
+<HEX>08 02</HEX>
+<NAME>若吟霜</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>42</SN>
+<TYPE>未知</TYPE>
+<HEX>09 02</HEX>
+<NAME>壺中龍</NAME>
+<MEMO>會當機</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>43</SN>
+<TYPE>未採用</TYPE>
+<HEX>3A 01</HEX>
+<NAME>素女</NAME>
+<MEMO>『素女』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>44</SN>
+<TYPE>未採用</TYPE>
+<HEX>3B 01</HEX>
+<NAME>夸父</NAME>
+<MEMO>『夸父』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>45</SN>
+<TYPE>未採用</TYPE>
+<HEX>3D 01</HEX>
+<NAME>盤古</NAME>
+<MEMO>『盤古』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>46</SN>
+<TYPE>未採用</TYPE>
+<HEX>3F 01</HEX>
+<NAME>北斗星君</NAME>
+<MEMO>『北斗星君』為司命之神，住在崑崙仙境中，巡行四方，司掌人人類一切生死禍福。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>47</SN>
+<TYPE>未採用</TYPE>
+<HEX>40 01</HEX>
+<NAME>太白金星</NAME>
+<MEMO>『太白金星』天空中的太白金星有兩個名字，早晨在東方叫啟明，黃昏在西方稱長庚。此星為戰神，通曉用兵之道。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>48</SN>
+<TYPE>未採用</TYPE>
+<HEX>4C 01</HEX>
+<NAME>太上老君</NAME>
+<MEMO>『太上老君』在猶龍傳中記載，老君係於無始之時出生，無因而起，成為萬道之光，元氣之祖，也是混沌之祖，天地之父母。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>49</SN>
+<TYPE>未採用</TYPE>
+<HEX>66 01</HEX>
+<NAME>鍾馗</NAME>
+<MEMO>『鍾馗』原名終葵，為古人驅鬼的神鎚，後來得到造化之助，變成怪漢，自名鐘馗。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>50</SN>
+<TYPE>未採用</TYPE>
+<HEX>69 01</HEX>
+<NAME>蚩尤</NAME>
+<MEMO>『蚩尤』蚩尤死前曾立下毒誓，誓言黃帝一族若不滅絕，永不罷休。隨即引體自爆，身形迸裂無數星點，劃過蒼穹後消失無蹤。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>51</SN>
+<TYPE>未採用</TYPE>
+<HEX>A4 01</HEX>
+<NAME>童女</NAME>
+<MEMO>『童女』年幼的小女孩。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>52</SN>
+<TYPE>未採用</TYPE>
+<HEX>A5 01</HEX>
+<NAME>童男</NAME>
+<MEMO>『童男』年幼的小男孩。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>53</SN>
+<TYPE>未採用</TYPE>
+<HEX>A6 01</HEX>
+<NAME>老婦人</NAME>
+<MEMO>『老婦人』普通老婦人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>54</SN>
+<TYPE>未採用</TYPE>
+<HEX>A7 01</HEX>
+<NAME>婦人</NAME>
+<MEMO>『婦人』結過婚的女人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>55</SN>
+<TYPE>未採用</TYPE>
+<HEX>A8 01</HEX>
+<NAME>貴婦</NAME>
+<MEMO>『貴婦』有錢人家的少奶奶。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>56</SN>
+<TYPE>未採用</TYPE>
+<HEX>A9 01</HEX>
+<NAME>婦女</NAME>
+<MEMO>『婦女』年長女子的通稱。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>57</SN>
+<TYPE>未採用</TYPE>
+<HEX>AB 01</HEX>
+<NAME>老人</NAME>
+<MEMO>『老人』普通老人家。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>58</SN>
+<TYPE>未採用</TYPE>
+<HEX>AC 01</HEX>
+<NAME>商人</NAME>
+<MEMO>『商人』商人以買賣謀生。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>59</SN>
+<TYPE>未採用</TYPE>
+<HEX>AD 01</HEX>
+<NAME>旅人</NAME>
+<MEMO>『旅人』在各地旅行的人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>60</SN>
+<TYPE>未採用</TYPE>
+<HEX>AE 01</HEX>
+<NAME>旅人</NAME>
+<MEMO>『旅人』在各地旅行的人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>61</SN>
+<TYPE>未採用</TYPE>
+<HEX>AF 01</HEX>
+<NAME>富人</NAME>
+<MEMO>『富人』有錢人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>62</SN>
+<TYPE>未採用</TYPE>
+<HEX>B0 01</HEX>
+<NAME>富商</NAME>
+<MEMO>『富商』經商致富的生意人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>63</SN>
+<TYPE>未採用</TYPE>
+<HEX>B1 01</HEX>
+<NAME>店小二</NAME>
+<MEMO>『店小二』客棧裡吆喝打雜，侍奉客人的跑腿。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>64</SN>
+<TYPE>妖魔</TYPE>
+<HEX>63 01</HEX>
+<NAME>白無常</NAME>
+<MEMO>『白無常』冥府的欽差，專司捉拿不生、不死的三界逃犯。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>65</SN>
+<TYPE>妖魔</TYPE>
+<HEX>64 01</HEX>
+<NAME>黑無常</NAME>
+<MEMO>『黑無常』冥府的欽差，專司捉拿不生、不死的三界逃犯。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>66</SN>
+<TYPE>妖魔</TYPE>
+<HEX>6A 01</HEX>
+<NAME>牛頭人</NAME>
+<MEMO>『牛頭人』自命為妖魔界的護法，如果妖魔被人類欺負了，大都會找牛頭人幫忙討回這個公道。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>67</SN>
+<TYPE>妖魔</TYPE>
+<HEX>6D 01</HEX>
+<NAME>延維</NAME>
+<MEMO>『延維』潛汱於水澤之魔。到了夜晚，身上會發出強光，照耀周圍百里之地。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>68</SN>
+<TYPE>妖魔</TYPE>
+<HEX>6F 01</HEX>
+<NAME>形天</NAME>
+<MEMO>『形天』形天是上古叛逆英雄的代表，被斬首後，只憑著一股昂然的氣魄屹立不倒，仍然舞動著盾牌與巨斧，向天示威。後來他的屍首衍生出一形天族，也叫無首民。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>69</SN>
+<TYPE>妖魔</TYPE>
+<HEX>78 01</HEX>
+<NAME>山鬼</NAME>
+<MEMO>『山鬼』山鬼是死在山林野獸的口吻下，受山鬼王控制的鬼魂。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>70</SN>
+<TYPE>妖魔</TYPE>
+<HEX>79 01</HEX>
+<NAME>英招</NAME>
+<MEMO>『英招』英招常巡遊四海，發出榴榴的聲音。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>71</SN>
+<TYPE>妖魔</TYPE>
+<HEX>7A 01</HEX>
+<NAME>肥遺</NAME>
+<MEMO>『肥遺』肥遺是死神的一種。如果肥遺現身，多半是代表此地將開啟戰事，有兵災發生。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>72</SN>
+<TYPE>妖魔</TYPE>
+<HEX>7B 01</HEX>
+<NAME>山鬼王</NAME>
+<MEMO>『山鬼王』山鬼王能使種種怪異如虎豹號擲，蛇蟒盤瞪，鬼魅嘻笑，妖形醜質，倏然千變。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>73</SN>
+<TYPE>妖魔</TYPE>
+<HEX>7C 01</HEX>
+<NAME>土螻</NAME>
+<MEMO>『土螻』頭上有四隻角，形狀又像羊的怪獸，會吃人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>74</SN>
+<TYPE>妖魔</TYPE>
+<HEX>7D 01</HEX>
+<NAME>雙頭蛇</NAME>
+<MEMO>『雙頭蛇』雙頭蛇是蛇中異類，壽命短，厭惡生人，性好攻擊，但行動比起一般蛇類遲緩許多。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>75</SN>
+<TYPE>妖魔</TYPE>
+<HEX>7E 01</HEX>
+<NAME>瘟鬼</NAME>
+<MEMO>『瘟鬼』散佈瘟疫的瘟鬼，叫人一碰上就會害寒熱，打擺子。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>76</SN>
+<TYPE>妖魔</TYPE>
+<HEX>7F 01</HEX>
+<NAME>蠱魔</NAME>
+<MEMO>『蠱魔』蠱魔是極厲害的魔物，本來只是一般蠱，沒想到煉成後有了生命反噬主人，有這種情形的都叫蠱魔。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>77</SN>
+<TYPE>妖魔</TYPE>
+<HEX>80 01</HEX>
+<NAME>長蛇</NAME>
+<MEMO>『長蛇』長蛇性喜寒冷，常常盤捲在樹上，伺機覓食生物。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>78</SN>
+<TYPE>妖魔</TYPE>
+<HEX>81 01</HEX>
+<NAME>長右</NAME>
+<MEMO>『長右』傳說長右出現的地方，必定發生恐怖的大水災。不但是種貌似猴的不祥之獸，還喜歡摹仿人發出的痛苦呻吟聲。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>79</SN>
+<TYPE>妖魔</TYPE>
+<HEX>82 01</HEX>
+<NAME>火光獸</NAME>
+<MEMO>『火光獸』火光獸體內自生光暈，外表視之如雄雄火燄，體重將近百斤，型如老鼠。火燄山的特產。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>80</SN>
+<TYPE>妖魔</TYPE>
+<HEX>83 01</HEX>
+<NAME>委蛇</NAME>
+<MEMO>『委蛇』委蛇是種蛇形死神，喜吃貪、嗔、癡、疑、愚、慢之人，但對於真、誠、信、定、智、謙之人無可奈何。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>81</SN>
+<TYPE>妖魔</TYPE>
+<HEX>84 01</HEX>
+<NAME>犀渠</NAME>
+<MEMO>『犀渠』犀渠的形狀像狗，毛像豬鬃，還會吃人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>82</SN>
+<TYPE>妖魔</TYPE>
+<HEX>85 01</HEX>
+<NAME>天狐</NAME>
+<MEMO>『天狐』傳說遇見天狐，將有大喜之事，不過沒有人証實。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>83</SN>
+<TYPE>妖魔</TYPE>
+<HEX>86 01</HEX>
+<NAME>兕</NAME>
+<MEMO>『兕』形狀像牛，毛色蒼黑，頭上只有一隻角。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>84</SN>
+<TYPE>妖魔</TYPE>
+<HEX>87 01</HEX>
+<NAME>妖火</NAME>
+<MEMO>『妖火』妖火不同於一般鬼火，是會施展火珠符的鬼魂。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>85</SN>
+<TYPE>妖魔</TYPE>
+<HEX>88 01</HEX>
+<NAME>文文</NAME>
+<MEMO>『文文』形狀像蜜蜂的妖怪，頭長有鬼面，舌長而反捲，性格凶暴，好食人屍。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>86</SN>
+<TYPE>妖魔</TYPE>
+<HEX>89 01</HEX>
+<NAME>僵屍</NAME>
+<MEMO>『僵屍』人死後，屍體尚未入殮，卻暴露在滿月的光線下，只要附近有不潔的污物沾染了屍氣，兩者就合而為一，成為僵屍。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>87</SN>
+<TYPE>妖魔</TYPE>
+<HEX>8A 01</HEX>
+<NAME>符鬼</NAME>
+<MEMO>『符鬼』符鬼是邪魔歪道用來逞私慾的邪物。此物煉成須以符紙收活人魂魄，再燒化為煙，然後施咒凝煙，還形得符鬼。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>88</SN>
+<TYPE>妖魔</TYPE>
+<HEX>8B 01</HEX>
+<NAME>食屍鬼</NAME>
+<MEMO>『食屍鬼』食屍鬼是一種沒有智慧，專門嗤食屍體的餓莩。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>89</SN>
+<TYPE>妖魔</TYPE>
+<HEX>8C 01</HEX>
+<NAME>宿風鬼</NAME>
+<MEMO>『宿風鬼』宿風鬼習慣餐風露宿以露水為食。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>90</SN>
+<TYPE>妖魔</TYPE>
+<HEX>8D 01</HEX>
+<NAME>相柳</NAME>
+<MEMO>『相柳』人臉蛇身的相柳，性情殘酷，只要它經過的地方，都會被挖掘成水澤﹑谿谷，澤中的水又辣又苦，成為不能耕種的地。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>91</SN>
+<TYPE>妖魔</TYPE>
+<HEX>8E 01</HEX>
+<NAME>女丑尸</NAME>
+<MEMO>『女丑尸』原是一群擁有神通的女巫，擅長求雨之術。但在祈雨時活生生被太陽曬死，陰魂不散，被人稱作『女丑尸』。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>92</SN>
+<TYPE>妖魔</TYPE>
+<HEX>90 01</HEX>
+<NAME>樹精</NAME>
+<MEMO>『樹精』深山古木，常有精怪附身，時日久之，已難辨其名。故一律稱作樹精。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>93</SN>
+<TYPE>妖魔</TYPE>
+<HEX>91 01</HEX>
+<NAME>布妖</NAME>
+<MEMO>『布妖』布妖原是天仙的衣服，因為日久成精，就妄動塵念，跑到人間，可是修行不足，被雜念所碎撕裂成許多布妖。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>94</SN>
+<TYPE>妖魔</TYPE>
+<HEX>92 01</HEX>
+<NAME>竹妖</NAME>
+<MEMO>『竹妖』竹妖原是天門山天角上倒垂拂雲的天帚，後因思凡心切，被布妖蠱惑而一同下凡。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>95</SN>
+<TYPE>妖魔</TYPE>
+<HEX>93 01</HEX>
+<NAME>風火龜</NAME>
+<MEMO>『風火龜』風火龜的形貌是上圓法天，下方法地，背上揹著玄文交錯的法丘山，又有火雲繞身。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>96</SN>
+<TYPE>妖魔</TYPE>
+<HEX>95 01</HEX>
+<NAME>化蛇</NAME>
+<MEMO>『化蛇』化蛇有張人臉，還長有鳥一般的翅膀，會像蛇一樣爬行，聲音像叱吒喧呼那樣難聽，是擅長使用水的怪物。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>97</SN>
+<TYPE>妖魔</TYPE>
+<HEX>96 01</HEX>
+<NAME>蜃氣精</NAME>
+<MEMO>『蜃氣精』蜃氣精靠吞吐地理中的濁氣而存活，它是海市蜃樓中產生的精怪。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>98</SN>
+<TYPE>妖魔</TYPE>
+<HEX>97 01</HEX>
+<NAME>畫中仙</NAME>
+<MEMO>『畫中仙』靈人傳信，天仙寶貴，隱於畫中，是為畫中仙。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>99</SN>
+<TYPE>妖魔</TYPE>
+<HEX>98 01</HEX>
+<NAME>狐狸精</NAME>
+<MEMO>『狐狸精』狐要修行百年，方可成精。狐狸精善於魅惑人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>100</SN>
+<TYPE>妖魔</TYPE>
+<HEX>99 01</HEX>
+<NAME>女尸</NAME>
+<MEMO>『女尸』炎帝的女兒之一，被封於巫山之陽，稱為巫山神女，能幻化出沒人間。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>101</SN>
+<TYPE>妖魔</TYPE>
+<HEX>9A 01</HEX>
+<NAME>鼎精</NAME>
+<MEMO>『鼎精』相傳大禹治水完，搜集天下石精，以母火鍛煉七七四十九年，久燒不化，故投人祭爐，事畢鑄成鼎精。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>102</SN>
+<TYPE>妖魔</TYPE>
+<HEX>9B 01</HEX>
+<NAME>化民女</NAME>
+<MEMO>『化民女』化民的幼生十年，接著是七年的結繭，長翼後破繭而後，只活一周便死去。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>103</SN>
+<TYPE>妖魔</TYPE>
+<HEX>9C 01</HEX>
+<NAME>化民</NAME>
+<MEMO>『化民』化民的幼生十年，接著著七年的結繭，長翼後破繭而出，只一周便死去。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>104</SN>
+<TYPE>妖魔</TYPE>
+<HEX>9D 01</HEX>
+<NAME>化民</NAME>
+<MEMO>『化民』化民的幼生十年，接著著七年的結繭，長翼後破繭而出，只一周便死去。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>105</SN>
+<TYPE>妖魔</TYPE>
+<HEX>9E 01</HEX>
+<NAME>化民</NAME>
+<MEMO>『化民』化民的幼生十年，接著著七年的結繭，長翼後破繭而出，只一周便死去。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>106</SN>
+<TYPE>妖魔</TYPE>
+<HEX>9F 01</HEX>
+<NAME>化民女</NAME>
+<MEMO>『化民女』化民的幼生十年，接著是七年的結繭，長翼後破繭而後，只活一周便死去。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>107</SN>
+<TYPE>妖魔</TYPE>
+<HEX>A0 01</HEX>
+<NAME>化民</NAME>
+<MEMO>『化民』化民的幼生十年，接著著七年的結繭，長翼後破繭而出，只一周便死去。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>108</SN>
+<TYPE>妖魔</TYPE>
+<HEX>A1 01</HEX>
+<NAME>化民</NAME>
+<MEMO>『化民』化民的幼生十年，接著著七年的結繭，長翼後破繭而出，只一周便死去。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>109</SN>
+<TYPE>妖魔</TYPE>
+<HEX>A2 01</HEX>
+<NAME>化民</NAME>
+<MEMO>『化民』化民的幼生十年，接著著七年的結繭，長翼後破繭而出，只一周便死去。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>110</SN>
+<TYPE>妖魔</TYPE>
+<HEX>A3 01</HEX>
+<NAME>化民法師</NAME>
+<MEMO>『化民法師』化民族裡，職司祭天求神，傳達天聽的重要人物。據說化民法師長命百歲，且不會長翼。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>111</SN>
+<TYPE>妖魔</TYPE>
+<HEX>C4 01</HEX>
+<NAME>吊死鬼</NAME>
+<MEMO>『吊死鬼』吊死鬼最喜歡學人的聲音，來迷惑人去上吊，這樣吊死鬼才能脫離鬼籍。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>112</SN>
+<TYPE>妖魔</TYPE>
+<HEX>C5 01</HEX>
+<NAME>餓死鬼</NAME>
+<MEMO>『餓死鬼』兇惡可怕的餓死鬼，只對吃活人有興趣。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>113</SN>
+<TYPE>妖魔</TYPE>
+<HEX>C6 01</HEX>
+<NAME>橫死鬼</NAME>
+<MEMO>『橫死鬼』橫死鬼常常住在人家的屋簷底下，專門使人生瘡害病，精神不安。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>114</SN>
+<TYPE>妖魔</TYPE>
+<HEX>C7 01</HEX>
+<NAME>怨魂</NAME>
+<MEMO>『怨魂』人死時，如果有滿腹委曲，讓一口氣骾在胸口咽不下去，死後那口冤氣會化做怨魂，游蕩在人間。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>115</SN>
+<TYPE>妖魔</TYPE>
+<HEX>C8 01</HEX>
+<NAME>惡靈</NAME>
+<MEMO>『惡靈』凶惡的幽靈。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>116</SN>
+<TYPE>妖魔</TYPE>
+<HEX>C9 01</HEX>
+<NAME>迷魂霧妖</NAME>
+<MEMO>『迷魂霧妖』會噴放出迷魂霧的妖怪。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>117</SN>
+<TYPE>妖魔</TYPE>
+<HEX>E2 01</HEX>
+<NAME>奢比</NAME>
+<MEMO>『奢比』奢比的長相怪奇，它有人的臉﹑狗的耳朵﹑野獸的身子，耳朵上還懸掛著兩條青蛇。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>118</SN>
+<TYPE>妖魔</TYPE>
+<HEX>E3 01</HEX>
+<NAME>赤獸</NAME>
+<MEMO>『赤獸』全身火紅的赤獸，懼水，喜歡住在溫暖的地方，會發出低沈的吼叫聲。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>119</SN>
+<TYPE>妖魔</TYPE>
+<HEX>E4 01</HEX>
+<NAME>食魂獸</NAME>
+<MEMO>『食魂獸』食魂獸以魂為食物，牠會偷偷靠近睡眠中的人，趁人不知不覺，將魂吸去，人雖沒死，卻永遠不會清醒過來。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>120</SN>
+<TYPE>妖魔</TYPE>
+<HEX>E6 01</HEX>
+<NAME>符鶴</NAME>
+<MEMO>『符鶴』神巫以符紙折成的紙鶴，能夠自由飛翔，擔任傳遞訊息及刺探敵情的角色，必要時也可可以攻擊敵人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>121</SN>
+<TYPE>妖魔</TYPE>
+<HEX>E7 01</HEX>
+<NAME>妖燈鬼</NAME>
+<MEMO>『妖燈鬼』妖燈鬼是燃燒人油的妖怪，若燈油燒完時還補充不到燈油，妖燈鬼就會化為灰燼。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>122</SN>
+<TYPE>妖魔</TYPE>
+<HEX>E8 01</HEX>
+<NAME>人面鶚</NAME>
+<MEMO>『人面鶚』其狀怪異，長著人面、狗尾，擅長吸食雲氣，有此怪出現則此地易有旱災。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>123</SN>
+<TYPE>妖魔</TYPE>
+<HEX>E9 01</HEX>
+<NAME>燭陰</NAME>
+<MEMO>『燭陰』燭陰又叫燭龍，人臉蛇身。燭陰的眼睛非常特別，眼皮合攏時成一直線，只要它開闔眼睛，就會顛倒白晝與黑夜。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>124</SN>
+<TYPE>妖魔</TYPE>
+<HEX>EA 01</HEX>
+<NAME>相狀</NAME>
+<MEMO>『相狀』相狀是亦獸亦人的族類，身上有虎紋，長有尾巴，是生活在山林裏的獸人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>125</SN>
+<TYPE>妖魔</TYPE>
+<HEX>EB 01</HEX>
+<NAME>騶吾</NAME>
+<MEMO>『騶吾』騶吾原出於崑崙山上，是龐大如虎的靈獸，能日行千里，快速如神。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>126</SN>
+<TYPE>妖魔</TYPE>
+<HEX>EC 01</HEX>
+<NAME>窮奇</NAME>
+<MEMO>『窮奇』窮奇一族非常強悍，且不知疼痛為何物，打起仗來兇猛而殘忍。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>127</SN>
+<TYPE>妖魔</TYPE>
+<HEX>ED 01</HEX>
+<NAME>鬼卒</NAME>
+<MEMO>『鬼卒』幽冥來的馬前卒子，喜歡裝腔做勢，欺負弱者。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>128</SN>
+<TYPE>妖魔</TYPE>
+<HEX>EE 01</HEX>
+<NAME>獨目鬼</NAME>
+<MEMO>『獨目鬼』通常獨居一處，不喜歡與任何生物打交道。據說是冥府中逃出來的妖怪。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>129</SN>
+<TYPE>妖魔</TYPE>
+<HEX>EF 01</HEX>
+<NAME>水妖</NAME>
+<MEMO>『水妖』水妖是生活在水中的奇怪生物，擅長在水中戰鬥。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>130</SN>
+<TYPE>妖魔</TYPE>
+<HEX>F0 01</HEX>
+<NAME>蝎精</NAME>
+<MEMO>『蝎精』蝎本來就是毒物的一種，因為在黃帝與蚩尤的『涿鹿之戰』中，被蚩尤的血滴到就蛻變成蝎精，擅長幻化。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>131</SN>
+<TYPE>妖魔</TYPE>
+<HEX>F1 01</HEX>
+<NAME>琵琶精</NAME>
+<MEMO>『琵琶精』未出嫁女子冤死後，不甘心自己早夭的命運，又留戀人間未竟之事，就將魂魄依附在生前最喜愛的琵琶上。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>132</SN>
+<TYPE>妖魔</TYPE>
+<HEX>F3 01</HEX>
+<NAME>夔鼓</NAME>
+<MEMO>『夔鼓』形狀像牛、聲似爆雷，頭上無角，腳也只有一隻。當其現身之時，必張嘴吼叫。黃帝打敗蚩尤後，剝下夔的皮，製成軍鼓，配上龍身人面的『雷獸』大腿骨頭當作鼓槌。據說敲擊出的聲音比打雷還響，可以響徹五百里之遠，能夠使山鳴谷應，天地變色。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>133</SN>
+<TYPE>妖魔</TYPE>
+<HEX>F4 01</HEX>
+<NAME>石獅精</NAME>
+<MEMO>『石獅精』朱門大戶前的石獅子，受到天地感應幻化成精。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>134</SN>
+<TYPE>妖魔</TYPE>
+<HEX>F5 01</HEX>
+<NAME>酒精</NAME>
+<MEMO>『酒精』出於崑崙山酒泉，集山水鍾秀而孕成的酒精，善於萎糜人類的毅力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>135</SN>
+<TYPE>妖魔</TYPE>
+<HEX>F6 01</HEX>
+<NAME>蝶仙</NAME>
+<MEMO>『蝶仙』蝶仙因吸食崑崙山特產奇花花蜜，成為通靈體，又受魔族法力雨露，終於修鍊而成。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>136</SN>
+<TYPE>妖魔</TYPE>
+<HEX>F7 01</HEX>
+<NAME>魍魎</NAME>
+<MEMO>『魍魎』乃山中精怪，擅長使用法術。喜歡對人類惡作劇。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>137</SN>
+<TYPE>物品</TYPE>
+<HEX>33 00</HEX>
+<NAME>招魂旗</NAME>
+<MEMO>『招魂旗』使用招魂旗後，會將瀕死者散落的魂魄喚回，使其恢復健康。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>138</SN>
+<TYPE>物品</TYPE>
+<HEX>34 00</HEX>
+<NAME>石敢當</NAME>
+<MEMO>『石敢當』使用後普通鬼怪都不敢靠近。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>139</SN>
+<TYPE>物品</TYPE>
+<HEX>35 00</HEX>
+<NAME>陀螺燭</NAME>
+<MEMO>『陀螺燭』可以招來風的媒介。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>140</SN>
+<TYPE>物品</TYPE>
+<HEX>36 00</HEX>
+<NAME>火龍傳雲令</NAME>
+<MEMO>『火龍傳雲令』召喚火龍引來雲媒介和火煤介。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>141</SN>
+<TYPE>物品</TYPE>
+<HEX>37 00</HEX>
+<NAME>雷神鼓</NAME>
+<MEMO>『雷神鼓』在天上有雲時，敲打雷神鼓可以召出雷火。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>142</SN>
+<TYPE>物品</TYPE>
+<HEX>38 00</HEX>
+<NAME>乾火寶珠</NAME>
+<MEMO>『乾火寶珠』乾火寶珠能施放火燄，射向敵人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>143</SN>
+<TYPE>物品</TYPE>
+<HEX>39 00</HEX>
+<NAME>坤火寶珠</NAME>
+<MEMO>『坤火寶珠』坤火寶珠能施放火燄，射向敵人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>144</SN>
+<TYPE>物品</TYPE>
+<HEX>3A 00</HEX>
+<NAME>盤古眼</NAME>
+<MEMO>『盤古眼』盤古眼具有炸地十里成焦土的威力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>145</SN>
+<TYPE>物品</TYPE>
+<HEX>3B 00</HEX>
+<NAME>九寸塔</NAME>
+<MEMO>『九寸塔』使用九寸塔可以吸收周圍的符咒。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>146</SN>
+<TYPE>物品</TYPE>
+<HEX>3C 00</HEX>
+<NAME>山海經殘頁</NAME>
+<MEMO>『山海經殘頁』使用山海經原稿的殘頁，能召喚出紙中的神物。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>147</SN>
+<TYPE>物品</TYPE>
+<HEX>3D 00</HEX>
+<NAME>閻羅鎚</NAME>
+<MEMO>『閻羅鎚』閻羅鎚是冥府閻羅的寶鎚，向地有驚動鬼神之效！</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>148</SN>
+<TYPE>物品</TYPE>
+<HEX>3E 00</HEX>
+<NAME>天火扇</NAME>
+<MEMO>『天火扇』可扇出火風傷敵。需要有火燄媒介才可使用。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>149</SN>
+<TYPE>物品</TYPE>
+<HEX>3F 00</HEX>
+<NAME>照妖鏡</NAME>
+<MEMO>『照妖鏡』能放出定身符，使對方動彈不得。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>150</SN>
+<TYPE>物品</TYPE>
+<HEX>40 00</HEX>
+<NAME>蜃氣匣</NAME>
+<MEMO>『蜃氣匣』可放出催眠敵人的霧氣。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>151</SN>
+<TYPE>物品</TYPE>
+<HEX>41 00</HEX>
+<NAME>五彩霧環</NAME>
+<MEMO>『五彩霧環』能罩住敵人，使敵人動彈不得。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>152</SN>
+<TYPE>物品</TYPE>
+<HEX>42 00</HEX>
+<NAME>淨水瓶</NAME>
+<MEMO>『淨水瓶』淨水瓶中的水乃是具有仙人加持過的聖水，若有雲時可招來雨水。並除去火的媒介。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>153</SN>
+<TYPE>物品</TYPE>
+<HEX>43 00</HEX>
+<NAME>喪妖金鐘</NAME>
+<MEMO>『喪妖金鐘』魔法物品，可對敵方施展出攻擊性的魔音。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>154</SN>
+<TYPE>物品</TYPE>
+<HEX>44 00</HEX>
+<NAME>藥材金類</NAME>
+<MEMO>『藥材金類』依五行相互生剋的道理，藥材金類可以治療木類的傷痛、疾病。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>155</SN>
+<TYPE>物品</TYPE>
+<HEX>45 00</HEX>
+<NAME>藥材木類</NAME>
+<MEMO>『藥材木類』依五行相互生剋的道理，藥材木類可以治療土類的傷痛、疾病。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>156</SN>
+<TYPE>物品</TYPE>
+<HEX>46 00</HEX>
+<NAME>藥材水類</NAME>
+<MEMO>『藥材水類』依五行相互生剋的道理，藥材水類可以治療火類的傷痛、疾病。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>157</SN>
+<TYPE>物品</TYPE>
+<HEX>47 00</HEX>
+<NAME>藥材火類</NAME>
+<MEMO>『藥材火類』依五行相互生剋的道理，藥材火類可以治療金類的傷痛、疾病。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>158</SN>
+<TYPE>物品</TYPE>
+<HEX>48 00</HEX>
+<NAME>藥材土類</NAME>
+<MEMO>『藥材土類』依五行相互生剋的道理，藥材土類可以治療水類的傷痛、疾病。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>159</SN>
+<TYPE>物品</TYPE>
+<HEX>49 00</HEX>
+<NAME>燈籠</NAME>
+<MEMO>『燈籠』日常生活中的物品。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>160</SN>
+<TYPE>物品</TYPE>
+<HEX>4A 00</HEX>
+<NAME>銀兩</NAME>
+<MEMO>『銀兩』一個價值五百文銅錢。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>161</SN>
+<TYPE>物品</TYPE>
+<HEX>4B 00</HEX>
+<NAME>金子</NAME>
+<MEMO>『金子』一個價值一千文銅錢。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>162</SN>
+<TYPE>物品</TYPE>
+<HEX>4C 00</HEX>
+<NAME>絞心丸</NAME>
+<MEMO>『絞心丸』名醫李櫃子公開的恢復疲勞藥方，效果普通。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>163</SN>
+<TYPE>物品</TYPE>
+<HEX>4D 00</HEX>
+<NAME>絞心丸藥方</NAME>
+<MEMO>『絞心丸藥方』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>164</SN>
+<TYPE>物品</TYPE>
+<HEX>4E 00</HEX>
+<NAME>松月漆</NAME>
+<MEMO>『松月漆』一種特殊樹脂製成的療傷靈藥。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>165</SN>
+<TYPE>物品</TYPE>
+<HEX>4F 00</HEX>
+<NAME>松月漆藥方</NAME>
+<MEMO>『松月漆藥方』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>166</SN>
+<TYPE>物品</TYPE>
+<HEX>50 00</HEX>
+<NAME>練骨帖</NAME>
+<MEMO>『練骨帖』專門治蠱的藥方。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>167</SN>
+<TYPE>物品</TYPE>
+<HEX>51 00</HEX>
+<NAME>練骨帖藥方</NAME>
+<MEMO>『練骨帖藥方』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>168</SN>
+<TYPE>物品</TYPE>
+<HEX>52 00</HEX>
+<NAME>麻沸散</NAME>
+<MEMO>『麻沸散』噴灑此藥粉，能夠讓吸到的生物全身麻痺。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>169</SN>
+<TYPE>物品</TYPE>
+<HEX>53 00</HEX>
+<NAME>嘉果</NAME>
+<MEMO>『嘉果』一種稀有果實，服食後能夠補充體力及生命力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>170</SN>
+<TYPE>物品</TYPE>
+<HEX>54 00</HEX>
+<NAME>百年人篸</NAME>
+<MEMO>『百年人篸』最高級的補藥，能大量回復體力及生命力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>171</SN>
+<TYPE>物品</TYPE>
+<HEX>55 00</HEX>
+<NAME>掌心雷</NAME>
+<MEMO>『掌心雷』掌心雷是小型的火藥，可隨手甩出炸傷敵人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>172</SN>
+<TYPE>物品</TYPE>
+<HEX>56 00</HEX>
+<NAME>百節爆竹</NAME>
+<MEMO>『百節爆竹』竹筒內藏火藥，經投擲後便產生爆炸！</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>173</SN>
+<TYPE>物品</TYPE>
+<HEX>57 00</HEX>
+<NAME>煉妖壺</NAME>
+<MEMO>『煉妖壺』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>174</SN>
+<TYPE>物品</TYPE>
+<HEX>58 00</HEX>
+<NAME>煉妖壺蓋</NAME>
+<MEMO>『煉妖壺蓋』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>175</SN>
+<TYPE>物品</TYPE>
+<HEX>59 00</HEX>
+<NAME>定風珠</NAME>
+<MEMO>『定風珠』有止風的神奇力量。持有這寶珠可以順利通過風穴。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>176</SN>
+<TYPE>物品</TYPE>
+<HEX>5A 00</HEX>
+<NAME>化雷鏡</NAME>
+<MEMO>『化雷鏡』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>177</SN>
+<TYPE>物品</TYPE>
+<HEX>5B 00</HEX>
+<NAME>指南車雕像</NAME>
+<MEMO>『指南車雕像』能夠破除迷霧林，的迷霧，讓持有人順利通過。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>178</SN>
+<TYPE>物品</TYPE>
+<HEX>5C 00</HEX>
+<NAME>青銅花飾物</NAME>
+<MEMO>『青銅花飾物』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>179</SN>
+<TYPE>物品</TYPE>
+<HEX>5D 00</HEX>
+<NAME>息壤</NAME>
+<MEMO>『息壤』據說是來自崑崙仙境的土壤，是種植建木的神土。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>180</SN>
+<TYPE>物品</TYPE>
+<HEX>5E 00</HEX>
+<NAME>青銅鐘</NAME>
+<MEMO>『青銅鐘』日常可見的物品。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>181</SN>
+<TYPE>物品</TYPE>
+<HEX>5F 00</HEX>
+<NAME>銅鑼</NAME>
+<MEMO>『銅鑼』一種常見的樂器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>182</SN>
+<TYPE>物品</TYPE>
+<HEX>60 00</HEX>
+<NAME>雞蛋</NAME>
+<MEMO>『雞蛋』平民百姓的補品，有解毒的效果。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>183</SN>
+<TYPE>物品</TYPE>
+<HEX>61 00</HEX>
+<NAME>陶器</NAME>
+<MEMO>『陶器』日常生活的日用品。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>184</SN>
+<TYPE>物品</TYPE>
+<HEX>62 00</HEX>
+<NAME>人髮</NAME>
+<MEMO>『人髮』人的頭髮。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>185</SN>
+<TYPE>物品</TYPE>
+<HEX>63 00</HEX>
+<NAME>人骨</NAME>
+<MEMO>『人骨』人類的屍骨。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>186</SN>
+<TYPE>物品</TYPE>
+<HEX>64 00</HEX>
+<NAME>茶葉</NAME>
+<MEMO>『茶葉』對一般人來說是高級飲料，沖泡後散發出的茶香往往能讓人神清氣爽，直接服食也另有風味。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>187</SN>
+<TYPE>物品</TYPE>
+<HEX>65 00</HEX>
+<NAME>水果</NAME>
+<MEMO>『水果』日常生活中的食品，食用後可恢復少許體力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>188</SN>
+<TYPE>物品</TYPE>
+<HEX>66 00</HEX>
+<NAME>乾糧</NAME>
+<MEMO>『乾糧』旅行必備的食物，食用後可恢復少許體力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>189</SN>
+<TYPE>物品</TYPE>
+<HEX>67 00</HEX>
+<NAME>火種</NAME>
+<MEMO>『火種』有代替火媒介的功能。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>190</SN>
+<TYPE>物品</TYPE>
+<HEX>68 00</HEX>
+<NAME>木柴</NAME>
+<MEMO>『木柴』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>191</SN>
+<TYPE>物品</TYPE>
+<HEX>69 00</HEX>
+<NAME>石頭</NAME>
+<MEMO>『石頭』隨地可見的東西。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>192</SN>
+<TYPE>物品</TYPE>
+<HEX>6A 00</HEX>
+<NAME>筆</NAME>
+<MEMO>『筆』日常生活中的物品。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>193</SN>
+<TYPE>物品</TYPE>
+<HEX>6B 00</HEX>
+<NAME>硃砂</NAME>
+<MEMO>『硃砂』由水銀所提煉出的硃砂，是中藥的一種，也因為顏色鮮紅故可當顏料使用。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>194</SN>
+<TYPE>物品</TYPE>
+<HEX>6C 00</HEX>
+<NAME>紙</NAME>
+<MEMO>『紙』日常生活中的物品。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>195</SN>
+<TYPE>物品</TYPE>
+<HEX>6D 00</HEX>
+<NAME>扇子</NAME>
+<MEMO>『扇子』日常生活中的物品。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>196</SN>
+<TYPE>物品</TYPE>
+<HEX>6E 00</HEX>
+<NAME>書本</NAME>
+<MEMO>『書本』日常生活中的物品，閱讀好書可以增長智慧。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>197</SN>
+<TYPE>物品</TYPE>
+<HEX>6F 00</HEX>
+<NAME>酒</NAME>
+<MEMO>『酒』日常生活中的飲料。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>198</SN>
+<TYPE>物品</TYPE>
+<HEX>70 00</HEX>
+<NAME>胡琴</NAME>
+<MEMO>『胡琴』常見的樂器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>199</SN>
+<TYPE>物品</TYPE>
+<HEX>71 00</HEX>
+<NAME>金屬礦</NAME>
+<MEMO>『金屬礦』可提鍊出金屬的礦。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>200</SN>
+<TYPE>物品</TYPE>
+<HEX>72 00</HEX>
+<NAME>泥堆</NAME>
+<MEMO>『泥堆』隨地可見的爛泥。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>201</SN>
+<TYPE>物品</TYPE>
+<HEX>73 00</HEX>
+<NAME>木塊</NAME>
+<MEMO>『木塊』日常生活中的物品。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>202</SN>
+<TYPE>物品</TYPE>
+<HEX>74 00</HEX>
+<NAME>竹子</NAME>
+<MEMO>『竹子』日常生活中的物品。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>203</SN>
+<TYPE>物品</TYPE>
+<HEX>75 00</HEX>
+<NAME>庵香棍</NAME>
+<MEMO>『庵香棍』弱小生物的剋星，小孩打狗用的武器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>204</SN>
+<TYPE>物品</TYPE>
+<HEX>76 00</HEX>
+<NAME>匕首</NAME>
+<MEMO>『匕首』一般人防身的武器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>205</SN>
+<TYPE>物品</TYPE>
+<HEX>77 00</HEX>
+<NAME>桃木劍</NAME>
+<MEMO>『桃木劍』桃木劍是經過法術處理的桃木製武器，對妖魔有特殊傷害力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>206</SN>
+<TYPE>物品</TYPE>
+<HEX>78 00</HEX>
+<NAME>紙扇</NAME>
+<MEMO>『紙扇』武功高強的人，就算是使用紙扇也能發揮高強功力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>207</SN>
+<TYPE>物品</TYPE>
+<HEX>79 00</HEX>
+<NAME>木槍</NAME>
+<MEMO>『木槍』一般民防最常見的武器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>208</SN>
+<TYPE>物品</TYPE>
+<HEX>7A 00</HEX>
+<NAME>青銅劍</NAME>
+<MEMO>『青銅劍』一般武器，以青銅材質製成。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>209</SN>
+<TYPE>物品</TYPE>
+<HEX>7B 00</HEX>
+<NAME>軒轅菜刀</NAME>
+<MEMO>『軒轅菜刀』軒轅菜刀雜貨店賣的特殊菜刀，由昆吾精鐵所鑄成，切肉切菜所向無敵。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>210</SN>
+<TYPE>物品</TYPE>
+<HEX>7C 00</HEX>
+<NAME>鐵扇</NAME>
+<MEMO>『鐵扇』沉重的鐵扇，可以變成致命的武器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>211</SN>
+<TYPE>物品</TYPE>
+<HEX>7D 00</HEX>
+<NAME>大刀</NAME>
+<MEMO>『大刀』俗話說千日劍，百日刀，刀比起劍的應用要容易上手的多。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>212</SN>
+<TYPE>物品</TYPE>
+<HEX>7E 00</HEX>
+<NAME>鐵斧</NAME>
+<MEMO>『鐵斧』山林裡的樵夫用起鐵斧，砍材俐落又可防身。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>213</SN>
+<TYPE>物品</TYPE>
+<HEX>7F 00</HEX>
+<NAME>大環刀</NAME>
+<MEMO>『大環刀』如果是好的打鐵匠，鑄造的大環刀既鋒利又實用。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>214</SN>
+<TYPE>物品</TYPE>
+<HEX>80 00</HEX>
+<NAME>紙劍</NAME>
+<MEMO>『紙劍』紙劍是用符紙加上攻擊咒語折成的劍道具，對付法術幻化出的敵人非常有效。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>215</SN>
+<TYPE>物品</TYPE>
+<HEX>81 00</HEX>
+<NAME>流星劍</NAME>
+<MEMO>『流星劍』精鐵鑄成的劍，一般都用同一種樣式，普遍稱為流星劍。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>216</SN>
+<TYPE>物品</TYPE>
+<HEX>82 00</HEX>
+<NAME>開山斧</NAME>
+<MEMO>『開山斧』開山斧是匿居山林的強盜最喜歡的武器，開山劈人銳不可當。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>217</SN>
+<TYPE>物品</TYPE>
+<HEX>83 00</HEX>
+<NAME>符紙扇</NAME>
+<MEMO>『符紙扇』用符紙所做的扇子，可作武器裝備，亦可當道具使出定身符。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>218</SN>
+<TYPE>物品</TYPE>
+<HEX>84 00</HEX>
+<NAME>矛盾</NAME>
+<MEMO>『矛盾』矛盾的盾上有矛，矛後有盾，不會產生矛盾，同時具有攻擊和防禦力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>219</SN>
+<TYPE>物品</TYPE>
+<HEX>85 00</HEX>
+<NAME>虎牙刀</NAME>
+<MEMO>『虎牙刀』摹仿老虎善於撕裂的利齒形狀，而鑄造的虎牙刀能夠有效的傷害敵人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>220</SN>
+<TYPE>物品</TYPE>
+<HEX>86 00</HEX>
+<NAME>無敵斧</NAME>
+<MEMO>『無敵斧』無敵斧的外形已達到反璞歸真的境界，平淡無奇卻能有效配合主人的心念戰鬥。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>221</SN>
+<TYPE>物品</TYPE>
+<HEX>87 00</HEX>
+<NAME>昆吾劍</NAME>
+<MEMO>『昆吾劍』昆吾山出產的赤金礦鑄成，能洞穿堅甲而鋒鍔不摧。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>222</SN>
+<TYPE>物品</TYPE>
+<HEX>88 00</HEX>
+<NAME>昆吾刀</NAME>
+<MEMO>『昆吾刀』昆吾山出產的赤金礦鑄成，能洞穿堅甲而鋒鍔不摧。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>223</SN>
+<TYPE>物品</TYPE>
+<HEX>89 00</HEX>
+<NAME>昆吾斧</NAME>
+<MEMO>『昆吾斧』昆吾山出產的赤金礦鑄成，能洞穿堅甲而鋒鍔不摧。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>224</SN>
+<TYPE>物品</TYPE>
+<HEX>8A 00</HEX>
+<NAME>柳葉刀</NAME>
+<MEMO>『柳葉刀』輕巧的柳葉刀是相當適合女子防身的武器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>225</SN>
+<TYPE>物品</TYPE>
+<HEX>8B 00</HEX>
+<NAME>九環刀</NAME>
+<MEMO>『九環刀』九環刀利用刀背上的九個鐵環，能夠發出聲音，混淆敵人的注意力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>226</SN>
+<TYPE>物品</TYPE>
+<HEX>8C 00</HEX>
+<NAME>鐵鬍劍</NAME>
+<MEMO>『鐵鬍劍』鐵鬍劍乃是傳說中的神奇武器，會不斷長出鐵刺，鐵刺斷掉還會再生。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>227</SN>
+<TYPE>物品</TYPE>
+<HEX>8D 00</HEX>
+<NAME>娥眉斧</NAME>
+<MEMO>『娥眉斧』精緻的娥眉斧是雙刃的厲害武器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>228</SN>
+<TYPE>物品</TYPE>
+<HEX>8E 00</HEX>
+<NAME>巨闕</NAME>
+<MEMO>『巨闕』巨闕是重劍的一種，適合用側刃劈、砍的格鬥兵器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>229</SN>
+<TYPE>物品</TYPE>
+<HEX>8F 00</HEX>
+<NAME>青龍偃月刀</NAME>
+<MEMO>『青龍偃月刀』青龍偃月刀是作戰時的重兵器，只要能使得動，就可以造成敵人的重傷害。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>230</SN>
+<TYPE>物品</TYPE>
+<HEX>90 00</HEX>
+<NAME>鳳頭斧</NAME>
+<MEMO>『鳳頭斧』鳳頭斧既是作戰的武器，又是具有顯示權威象徵的兵器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>231</SN>
+<TYPE>物品</TYPE>
+<HEX>91 00</HEX>
+<NAME>勝邪</NAME>
+<MEMO>『勝邪』勝邪是陸斬犀兕，水截蛟龍的上古名劍之一。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>232</SN>
+<TYPE>物品</TYPE>
+<HEX>92 00</HEX>
+<NAME>蝴蝶刀</NAME>
+<MEMO>『蝴蝶刀』蝴蝶刀適合於短兵相接的格鬥中防衛自身安全。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>233</SN>
+<TYPE>物品</TYPE>
+<HEX>93 00</HEX>
+<NAME>挫子斧</NAME>
+<MEMO>『挫子斧』除了當做劈殺的武器外，還可以當做樂舞的道具。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>234</SN>
+<TYPE>物品</TYPE>
+<HEX>94 00</HEX>
+<NAME>鎮嶽</NAME>
+<MEMO>『鎮嶽』陸斬犀兕，水截蛟龍的名劍之一。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>235</SN>
+<TYPE>物品</TYPE>
+<HEX>95 00</HEX>
+<NAME>定光</NAME>
+<MEMO>『定光』此劍的質地輕巧，容易快速施展，故有定光之名。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>236</SN>
+<TYPE>物品</TYPE>
+<HEX>96 00</HEX>
+<NAME>鴛鴦刀</NAME>
+<MEMO>『鴛鴦刀』鴛鴦刀可分可合，適於斬殺，劈砍。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>237</SN>
+<TYPE>物品</TYPE>
+<HEX>97 00</HEX>
+<NAME>魚腸劍</NAME>
+<MEMO>『魚腸劍』短刃的寶劍，可收藏在袖內，輕快的劍身使出來讓敵方捉摸不定。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>238</SN>
+<TYPE>物品</TYPE>
+<HEX>98 00</HEX>
+<NAME>元神劍</NAME>
+<MEMO>『元神劍』使用元神劍時必須專心凝志，方能人劍配合的天衣無縫，攻無不剋。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>239</SN>
+<TYPE>物品</TYPE>
+<HEX>99 00</HEX>
+<NAME>精火劍</NAME>
+<MEMO>『精火劍』精火劍握在手上後，劍身會不斷發出高熱的劍氣的寶劍。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>240</SN>
+<TYPE>物品</TYPE>
+<HEX>9A 00</HEX>
+<NAME>冰珀刀</NAME>
+<MEMO>『冰珀刀』觀賞冰珀刀，可以看出一條梅枝被包在冰凍的刀身中，像是個藝術品，但被冰珀刀傷到後，血液都會結冰。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>241</SN>
+<TYPE>物品</TYPE>
+<HEX>9B 00</HEX>
+<NAME>冥門斧</NAME>
+<MEMO>『冥門斧』地獄鬼卒打造的武器，殺傷力驚人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>242</SN>
+<TYPE>物品</TYPE>
+<HEX>9C 00</HEX>
+<NAME>兩極劍</NAME>
+<MEMO>『兩極劍』兩極劍的半邊劍刃極冰寒，另半邊劍刃會發出熾熱，被擊中的物體將要承受兩極化的破壞。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>243</SN>
+<TYPE>物品</TYPE>
+<HEX>9D 00</HEX>
+<NAME>無形劍</NAME>
+<MEMO>『無形劍』天底下威力最強的劍，只有最聰明的人才能看得見。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>244</SN>
+<TYPE>物品</TYPE>
+<HEX>9E 00</HEX>
+<NAME>龍形</NAME>
+<MEMO>『龍形』傳說中的名劍，輕便銳利。攻擊力卓越。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>245</SN>
+<TYPE>物品</TYPE>
+<HEX>9F 00</HEX>
+<NAME>干將</NAME>
+<MEMO>『干將』馳名於世的鑄劍大師，干將精心鑄成的雄性對劍。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>246</SN>
+<TYPE>物品</TYPE>
+<HEX>A0 00</HEX>
+<NAME>莫邪</NAME>
+<MEMO>『莫邪』馳名於世的鑄劍大師，干將精心鑄成的雌性對劍。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>247</SN>
+<TYPE>物品</TYPE>
+<HEX>A1 00</HEX>
+<NAME>太阿</NAME>
+<MEMO>『太阿』傳說中的名劍，擁有鬼神皆懼的破壞力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>248</SN>
+<TYPE>物品</TYPE>
+<HEX>A2 00</HEX>
+<NAME>顓頊劍</NAME>
+<MEMO>『顓頊劍』上古神劍，是顓頊鑄造的除魔武器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>249</SN>
+<TYPE>物品</TYPE>
+<HEX>A3 00</HEX>
+<NAME>盤古之斧</NAME>
+<MEMO>『盤古之斧』盤古之斧用盤古骨髓之精華鑄成，有無堅不摧之力，世間最強兵器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>250</SN>
+<TYPE>物品</TYPE>
+<HEX>A4 00</HEX>
+<NAME>軒轅劍</NAME>
+<MEMO>『軒轅劍』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>251</SN>
+<TYPE>物品</TYPE>
+<HEX>A5 00</HEX>
+<NAME>皮護甲</NAME>
+<MEMO>『皮護甲』皮護甲可保護身軀重要部位，降低傷害的嚴重性。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>252</SN>
+<TYPE>物品</TYPE>
+<HEX>A6 00</HEX>
+<NAME>絲衣</NAME>
+<MEMO>『絲衣』以蠶絲織成的絲衣，冬暖夏涼，十分好用。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>253</SN>
+<TYPE>物品</TYPE>
+<HEX>A7 00</HEX>
+<NAME>青銅甲</NAME>
+<MEMO>『青銅甲』青銅甲能降低傷害的嚴重性，可是也相當笨重。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>254</SN>
+<TYPE>物品</TYPE>
+<HEX>A8 00</HEX>
+<NAME>鐵甲</NAME>
+<MEMO>『鐵甲』鐵甲使得一般粗糙的兵器，顯得如同小孩的玩具。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>255</SN>
+<TYPE>物品</TYPE>
+<HEX>A9 00</HEX>
+<NAME>明光甲</NAME>
+<MEMO>『明光甲』精工打造的甲衣，用質料輕又堅固的飾物裝飾。防護功效一流。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>256</SN>
+<TYPE>物品</TYPE>
+<HEX>AA 00</HEX>
+<NAME>烏蠶衣</NAME>
+<MEMO>『烏蠶衣』輕軟而堅韌的烏蠶所織成的寶衣，幾乎刀槍不入。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>257</SN>
+<TYPE>物品</TYPE>
+<HEX>AB 00</HEX>
+<NAME>皮帽</NAME>
+<MEMO>『皮帽』出外時戴著皮帽，能遮避風寒，免受疾病之害。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>258</SN>
+<TYPE>物品</TYPE>
+<HEX>AC 00</HEX>
+<NAME>青銅盔</NAME>
+<MEMO>『青銅盔』戴上青銅鑄成的頭盔能避免敵人重傷自己。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>259</SN>
+<TYPE>物品</TYPE>
+<HEX>AD 00</HEX>
+<NAME>鐵盔</NAME>
+<MEMO>『鐵盔』鐵盔能防止頭部被敵人的刀劍所傷害。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>260</SN>
+<TYPE>物品</TYPE>
+<HEX>AE 00</HEX>
+<NAME>明光盔</NAME>
+<MEMO>『明光盔』精工打造的頭盔，能有效抵禦敵人傷害。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>261</SN>
+<TYPE>物品</TYPE>
+<HEX>AF 00</HEX>
+<NAME>平安符</NAME>
+<MEMO>『平安符』以誠心向神明求得的平安符，是出外人心靈的依靠。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>262</SN>
+<TYPE>物品</TYPE>
+<HEX>B0 00</HEX>
+<NAME>五彩石項鍊</NAME>
+<MEMO>『五彩石項鍊』據說是女媧煉石補天之剩餘物品磨製而成，世間僅此這一個。這項鍊是江如紅從小帶在身上的寶物。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>263</SN>
+<TYPE>物品</TYPE>
+<HEX>B1 00</HEX>
+<NAME>皮手套</NAME>
+<MEMO>『皮手套』皮手套的活動性良好，又能有效保護雙手的肌膚。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>264</SN>
+<TYPE>物品</TYPE>
+<HEX>B2 00</HEX>
+<NAME>烏蠶手套</NAME>
+<MEMO>『烏蠶手套』烏蠶絲所織成的手套，有一般防具不能比的防禦力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>265</SN>
+<TYPE>物品</TYPE>
+<HEX>B3 00</HEX>
+<NAME>皮鞋</NAME>
+<MEMO>『皮鞋』穿著皮鞋能抵擋草間的毒蟲伺機加害。且能保持行動順暢。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>266</SN>
+<TYPE>物品</TYPE>
+<HEX>B4 00</HEX>
+<NAME>銅戒指</NAME>
+<MEMO>『銅戒指』一般飾物，能戴在手指上，沒有很實際的效用。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>267</SN>
+<TYPE>物品</TYPE>
+<HEX>B5 00</HEX>
+<NAME>鐵戒指</NAME>
+<MEMO>『鐵戒指』一般飾物，能戴在手指上，此戒指代表一種意義：『提醒自己，有心願未了』。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>268</SN>
+<TYPE>物品</TYPE>
+<HEX>B6 00</HEX>
+<NAME>銀戒指</NAME>
+<MEMO>『銀戒指』高級飾物，能戴在手指上，此戒指代表一種意義：『警惕自身，勿茍且放蕩』。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>269</SN>
+<TYPE>物品</TYPE>
+<HEX>B7 00</HEX>
+<NAME>金戒指</NAME>
+<MEMO>『金戒指』富有的人家往往會給兒孫戴金戒指，藉以增加福氣。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>270</SN>
+<TYPE>物品</TYPE>
+<HEX>B8 00</HEX>
+<NAME>玉戒指</NAME>
+<MEMO>『玉戒指』在權貴之家，玉戒指代表的是身份地位的象徵。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>271</SN>
+<TYPE>物品</TYPE>
+<HEX>B9 00</HEX>
+<NAME>五鬼戒指</NAME>
+<MEMO>『五鬼戒指』此戒指封有五鬼在其中，能替主人擋住一些奇術傷害。在戰鬥中使用可傷害敵人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>272</SN>
+<TYPE>物品</TYPE>
+<HEX>BA 00</HEX>
+<NAME>辟邪戒指</NAME>
+<MEMO>『辟邪戒指』戴上辟邪戒指能增加抗魔的能力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>273</SN>
+<TYPE>物品</TYPE>
+<HEX>BB 00</HEX>
+<NAME>辟邪絲</NAME>
+<MEMO>『辟邪絲』辟邪絲以千年蜘蛛精結網的絲提煉而成，掛在脖子上可防毒。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>274</SN>
+<TYPE>物品</TYPE>
+<HEX>BC 00</HEX>
+<NAME>光紗天衣</NAME>
+<MEMO>『光紗天衣』光紗天衣是地仙的衣布，掛在身上可提高敏捷度。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>275</SN>
+<TYPE>物品</TYPE>
+<HEX>BD 00</HEX>
+<NAME>錢鬼算盤</NAME>
+<MEMO>『錢鬼算盤』一種假錢符咒，商人會心甘情願用高價買下此物。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>276</SN>
+<TYPE>物品</TYPE>
+<HEX>F7 00</HEX>
+<NAME>玄冰珠</NAME>
+<MEMO>『玄冰珠』江長風贈與的寶物，本來是用來破解火燄山岩漿河所用，但如今或許另有他用。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>277</SN>
+<TYPE>物品</TYPE>
+<HEX>F8 00</HEX>
+<NAME>石生菖莆</NAME>
+<MEMO>『石生菖莆』食用後可回復仙術與健康。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>278</SN>
+<TYPE>物品</TYPE>
+<HEX>F9 00</HEX>
+<NAME>龍吟葫蘆</NAME>
+<MEMO>『龍吟葫蘆』有祭火與火龍吐炎的寶物。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>279</SN>
+<TYPE>物品</TYPE>
+<HEX>FA 00</HEX>
+<NAME>視肉</NAME>
+<MEMO>『視肉』吃不完的肉，味道鮮美又美觀，食用後可恢復大量體力。此物是仙境四神器之一。江如紅：「我被打死也不要吃這種東西。」何然：「這是要通往崑崙仙境的關鍵寶物，不是要吃的。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>280</SN>
+<TYPE>物品</TYPE>
+<HEX>FB 00</HEX>
+<NAME>點睛筆</NAME>
+<MEMO>『點睛筆』？？？</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>281</SN>
+<TYPE>物品</TYPE>
+<HEX>FC 00</HEX>
+<NAME>銅鏡</NAME>
+<MEMO>『銅鏡』日常生活中的物品。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>282</SN>
+<TYPE>物品</TYPE>
+<HEX>FD 00</HEX>
+<NAME>琵琶</NAME>
+<MEMO>『琵琶』一種樂器，裝備在身上會造成行動不便。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>283</SN>
+<TYPE>物品</TYPE>
+<HEX>FE 00</HEX>
+<NAME>陀螺</NAME>
+<MEMO>『陀螺』小孩子喜歡的玩具。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>284</SN>
+<TYPE>物品</TYPE>
+<HEX>FF 00</HEX>
+<NAME>鈴鼓</NAME>
+<MEMO>『鈴鼓』小孩子喜歡的玩具。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>285</SN>
+<TYPE>物品</TYPE>
+<HEX>00 01</HEX>
+<NAME>捏麵人</NAME>
+<MEMO>『捏麵人』小孩子喜歡的玩具。可以食用．．。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>286</SN>
+<TYPE>物品</TYPE>
+<HEX>01 01</HEX>
+<NAME>神秘果</NAME>
+<MEMO>『神秘果』可隨時記錄的神奇物品。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>287</SN>
+<TYPE>物品</TYPE>
+<HEX>02 01</HEX>
+<NAME>傀儡</NAME>
+<MEMO>『傀儡』小孩子喜歡的玩具。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>288</SN>
+<TYPE>物品</TYPE>
+<HEX>03 01</HEX>
+<NAME>雕像</NAME>
+<MEMO>『雕像』可以隨時記錄的神奇物品，此物也是仙境四神器之一。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>289</SN>
+<TYPE>物品</TYPE>
+<HEX>04 01</HEX>
+<NAME>冥紙</NAME>
+<MEMO>『冥紙』祭拜先人及孤魂野鬼的通貨。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>290</SN>
+<TYPE>物品</TYPE>
+<HEX>05 01</HEX>
+<NAME>檀香</NAME>
+<MEMO>『檀香』寧神安心志的香料。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>291</SN>
+<TYPE>物品</TYPE>
+<HEX>06 01</HEX>
+<NAME>使雲秘術</NAME>
+<MEMO>『使雲秘術』乾松上人的法術密本，記載喚雲的法術。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>292</SN>
+<TYPE>物品</TYPE>
+<HEX>07 01</HEX>
+<NAME>凝水玉</NAME>
+<MEMO>『凝水玉』會釋放出大量冰針雨的寶石。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>293</SN>
+<TYPE>物品</TYPE>
+<HEX>08 01</HEX>
+<NAME>珍珠</NAME>
+<MEMO>『珍珠』寶石的一種。據說在戰鬥中服佩有特殊效用。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>294</SN>
+<TYPE>物品</TYPE>
+<HEX>09 01</HEX>
+<NAME>玉石</NAME>
+<MEMO>『玉石』寶石的一種。據說在戰鬥中服佩有特殊效用。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>295</SN>
+<TYPE>物品</TYPE>
+<HEX>0A 01</HEX>
+<NAME>雞血石</NAME>
+<MEMO>『雞血石』寶石的一種。據說在戰鬥中服佩有特殊效用。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>296</SN>
+<TYPE>物品</TYPE>
+<HEX>0B 01</HEX>
+<NAME>白狐死屍</NAME>
+<MEMO>『白狐死屍』古月聖死後所化形的本體。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>297</SN>
+<TYPE>物品</TYPE>
+<HEX>0C 01</HEX>
+<NAME>捲軸</NAME>
+<MEMO>『捲軸』日常生活中的物品。使用後有意想不到的效用！</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>298</SN>
+<TYPE>物品</TYPE>
+<HEX>0D 01</HEX>
+<NAME>布衣</NAME>
+<MEMO>『布衣』日常生活中的裝扮。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>299</SN>
+<TYPE>物品</TYPE>
+<HEX>0E 01</HEX>
+<NAME>布巾</NAME>
+<MEMO>『布巾』日常生活中的裝扮。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>300</SN>
+<TYPE>物品</TYPE>
+<HEX>0F 01</HEX>
+<NAME>絲手套</NAME>
+<MEMO>『絲手套』絲手套是富貴人家的衣著配飾。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>301</SN>
+<TYPE>物品</TYPE>
+<HEX>10 01</HEX>
+<NAME>鐵手套</NAME>
+<MEMO>『鐵手套』著名鐵匠精心打造的特殊防具。帶在手上靈活自如，又有很高的防禦力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>302</SN>
+<TYPE>物品</TYPE>
+<HEX>11 01</HEX>
+<NAME>草鞋</NAME>
+<MEMO>『草鞋』平常百姓的穿著。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>303</SN>
+<TYPE>物品</TYPE>
+<HEX>12 01</HEX>
+<NAME>布鞋</NAME>
+<MEMO>『布鞋』比較有點積蓄的人家，多半會買這種行動方便的布鞋。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>304</SN>
+<TYPE>物品</TYPE>
+<HEX>13 01</HEX>
+<NAME>風火輪</NAME>
+<MEMO>『風火輪』神仙使用的火輪鞋子，裝備能增加敏捷力。戰鬥中使用另有奇效。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>305</SN>
+<TYPE>物品</TYPE>
+<HEX>14 01</HEX>
+<NAME>詛咒戒指</NAME>
+<MEMO>『詛咒戒指』詛咒戒指被下過血咒，會給主人帶來霉運。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>306</SN>
+<TYPE>物品</TYPE>
+<HEX>15 01</HEX>
+<NAME>解病萬靈丹</NAME>
+<MEMO>『解病萬靈丹』可用來治療中毒。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>307</SN>
+<TYPE>物品</TYPE>
+<HEX>16 01</HEX>
+<NAME>金烏鏡</NAME>
+<MEMO>『金烏鏡』可進入鏡中到達想去的地方。此物是仙境四神器之一。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>308</SN>
+<TYPE>物品</TYPE>
+<HEX>17 01</HEX>
+<NAME>土地神籤</NAME>
+<MEMO>『土地神籤』能呼喚出土地神，幫忙你回到上次去過的城鎮。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>309</SN>
+<TYPE>物品</TYPE>
+<HEX>18 01</HEX>
+<NAME>土地神印</NAME>
+<MEMO>『土地神印』此符能呼喚出土地神，脫離困境。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>310</SN>
+<TYPE>物品</TYPE>
+<HEX>19 01</HEX>
+<NAME>月宮琴</NAME>
+<MEMO>『月宮琴』此物使用後能回到上次去的城鎮。此寶物是仙境四神器之一。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>311</SN>
+<TYPE>物品</TYPE>
+<HEX>1A 01</HEX>
+<NAME>地脈血泉</NAME>
+<MEMO>『地脈血泉』一種稀有靈藥，能治療解除各種奇怪症狀，以及恢復一些體力及生命力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>312</SN>
+<TYPE>物品</TYPE>
+<HEX>1B 01</HEX>
+<NAME>仙爐灰</NAME>
+<MEMO>『仙爐灰』神仙煉丹爐中留下的灰燼，凡人食用可完全恢復仙術。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>313</SN>
+<TYPE>物品</TYPE>
+<HEX>1C 01</HEX>
+<NAME>仙魄香</NAME>
+<MEMO>『仙魄香』神仙煉出的香，使用後可完全恢復全員的狀態。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>314</SN>
+<TYPE>物品</TYPE>
+<HEX>1D 01</HEX>
+<NAME>大補丹</NAME>
+<MEMO>『大補丹』混合多種補藥製成，食用後可迅速補充一些體力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>315</SN>
+<TYPE>物品</TYPE>
+<HEX>1E 01</HEX>
+<NAME>活骨靈藥</NAME>
+<MEMO>『活骨靈藥』效果最好的大補藥，食用後可迅速補充大量體力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>316</SN>
+<TYPE>物品</TYPE>
+<HEX>1F 01</HEX>
+<NAME>還靈丹</NAME>
+<MEMO>『還靈丹』用含有天地靈氣的藥材製成，能補充一些仙術。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>317</SN>
+<TYPE>物品</TYPE>
+<HEX>20 01</HEX>
+<NAME>靈神天藥</NAME>
+<MEMO>『靈神天藥』法力高強的修道者把仙術注入做成的藥，能補充使用者的仙術。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>318</SN>
+<TYPE>物品</TYPE>
+<HEX>21 01</HEX>
+<NAME>仙果露水</NAME>
+<MEMO>『仙果露水』仙境長生果上沾的露水，凡人食用能恢復大量仙術。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>319</SN>
+<TYPE>物品</TYPE>
+<HEX>22 01</HEX>
+<NAME>還魄丹</NAME>
+<MEMO>『還魄丹』可解救瀕死之人的靈藥。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>320</SN>
+<TYPE>物品</TYPE>
+<HEX>23 01</HEX>
+<NAME>提神散</NAME>
+<MEMO>『提神散』要對付瞌睡蟲，可以試試提神散。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>321</SN>
+<TYPE>物品</TYPE>
+<HEX>24 01</HEX>
+<NAME>反八卦印</NAME>
+<MEMO>『反八卦印』當施法能力被封住時，可用此寶物解開。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>322</SN>
+<TYPE>物品</TYPE>
+<HEX>25 01</HEX>
+<NAME>解僵針</NAME>
+<MEMO>『解僵針』肢體上的麻痺，可用此含藥的針刺穴道解開。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>323</SN>
+<TYPE>物品</TYPE>
+<HEX>26 01</HEX>
+<NAME>千年篸心丹</NAME>
+<MEMO>『千年篸心丹』千年篸心丹是從多株百年老蔘提煉的精華，能完全恢復使用者的狀態。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>324</SN>
+<TYPE>物品</TYPE>
+<HEX>27 01</HEX>
+<NAME>銀絲戰袍</NAME>
+<MEMO>『銀絲戰袍』銀絲編織的戰袍，閃耀著灼灼光彩，質料重但柔軟的高級護甲。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>325</SN>
+<TYPE>物品</TYPE>
+<HEX>28 01</HEX>
+<NAME>天兵戰袍</NAME>
+<MEMO>『天兵戰袍』天兵天將們穿著的戰袍，是天界的寶衣。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>326</SN>
+<TYPE>物品</TYPE>
+<HEX>29 01</HEX>
+<NAME>龍鬍衣</NAME>
+<MEMO>『龍鬍衣』累積壽終的神龍鬍鬚編織成的寶衣，防禦力絕世無雙。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>327</SN>
+<TYPE>物品</TYPE>
+<HEX>2A 01</HEX>
+<NAME>斗笠</NAME>
+<MEMO>『斗笠』日常生活中使用的斗笠，能遮雨或擋太陽光。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>328</SN>
+<TYPE>物品</TYPE>
+<HEX>2B 01</HEX>
+<NAME>金剛斗笠</NAME>
+<MEMO>『金剛斗笠』金剛斗笠是道士唸過符咒的斗笠，禦魔效果良好。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>329</SN>
+<TYPE>物品</TYPE>
+<HEX>2C 01</HEX>
+<NAME>龍鱗盔</NAME>
+<MEMO>『龍鱗盔』用神龍身上的鱗片打造成的頭盔，屬於神仙才有的寶物。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>330</SN>
+<TYPE>物品</TYPE>
+<HEX>2D 01</HEX>
+<NAME>靈蛇手套</NAME>
+<MEMO>『靈蛇手套』強韌的靈蛇皮製成的手套，質感滑溜，防禦力很強。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>331</SN>
+<TYPE>物品</TYPE>
+<HEX>2E 01</HEX>
+<NAME>龍鱗手套</NAME>
+<MEMO>『龍鱗手套』用龍皮製成，再貼上龍鱗強化，屬於天將穿戴的防具。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>332</SN>
+<TYPE>物品</TYPE>
+<HEX>2F 01</HEX>
+<NAME>鐵鞋</NAME>
+<MEMO>『鐵鞋』鐵鞋對想要練成飛毛腿的武人相當有用。雖然防禦力高，但會降低實戰的速度。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>333</SN>
+<TYPE>物品</TYPE>
+<HEX>30 01</HEX>
+<NAME>踏風草鞋</NAME>
+<MEMO>『踏風草鞋』踏風草鞋以躡空草編織而成，能行如疾風，日行千里。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>334</SN>
+<TYPE>物品</TYPE>
+<HEX>31 01</HEX>
+<NAME>鳳羽項鍊</NAME>
+<MEMO>『鳳羽項鍊』鳳羽項鍊傳說有辟邪的功效。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>335</SN>
+<TYPE>物品</TYPE>
+<HEX>32 01</HEX>
+<NAME>護命護符</NAME>
+<MEMO>『護命護符』護命護符能保護佩戴者免受妖邪的侵害。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>336</SN>
+<TYPE>物品</TYPE>
+<HEX>33 01</HEX>
+<NAME>蛇牙項鍊</NAME>
+<MEMO>『蛇牙項鍊』蛇牙項鍊具有辟邪的功效。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>337</SN>
+<TYPE>物品</TYPE>
+<HEX>34 01</HEX>
+<NAME>金瞳戒指</NAME>
+<MEMO>『金瞳戒指』類似虎眼石的辟邪戒指。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>338</SN>
+<TYPE>物品</TYPE>
+<HEX>35 01</HEX>
+<NAME>神草結</NAME>
+<MEMO>『神草結』可帶在頸部的護符，有特別的附加效果。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>339</SN>
+<TYPE>物品</TYPE>
+<HEX>36 01</HEX>
+<NAME>鋤頭</NAME>
+<MEMO>『鋤頭』種田常用的工具，也有人拿來當武器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>340</SN>
+<TYPE>物品</TYPE>
+<HEX>37 01</HEX>
+<NAME>鏟子</NAME>
+<MEMO>『鏟子』鏟土用的工具。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>341</SN>
+<TYPE>物品</TYPE>
+<HEX>38 01</HEX>
+<NAME>菜刀</NAME>
+<MEMO>『菜刀』是廚房中不可或缺的工具。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>342</SN>
+<TYPE>物品</TYPE>
+<HEX>39 01</HEX>
+<NAME>古箏</NAME>
+<MEMO>『古箏』大家閨秀繡閣中最常陪伴的樂器。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>343</SN>
+<TYPE>神族</TYPE>
+<HEX>3C 01</HEX>
+<NAME>女媧</NAME>
+<MEMO>『女媧』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>344</SN>
+<TYPE>神族</TYPE>
+<HEX>3E 01</HEX>
+<NAME>文曲星</NAME>
+<MEMO>『文曲星』文曲星是天上北斗第四星，又稱天權。如此星下凡，往往會投胎成才高八斗的大文臣。」</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>345</SN>
+<TYPE>神族</TYPE>
+<HEX>41 01</HEX>
+<NAME>太歲星</NAME>
+<MEMO>『太歲星』傳說中的凶神太歲是藏在地下三尺深處，渾身黃白、質感滑溜，外形像圓罈的怪物，又叫做歲陰。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>346</SN>
+<TYPE>神族</TYPE>
+<HEX>42 01</HEX>
+<NAME>金烏</NAME>
+<MEMO>『金烏』在海外西經中，記載：后羿射日時，一團火球爆裂，又有金色羽毛繽紛灑落，就是這種三足的金色烏鴉。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>347</SN>
+<TYPE>神族</TYPE>
+<HEX>43 01</HEX>
+<NAME>金童玉女</NAME>
+<MEMO>『金童玉女』乾精為童，坤精為女，金童玉女象徵兩儀互生之圓滿。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>348</SN>
+<TYPE>神族</TYPE>
+<HEX>44 01</HEX>
+<NAME>天兵</NAME>
+<MEMO>『天兵』天兵是崑崙仙境裡的防衛者，偶而會奉命到地面上，鏟除有可能為害仙境的人、事、物。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>349</SN>
+<TYPE>神族</TYPE>
+<HEX>45 01</HEX>
+<NAME>仙女</NAME>
+<MEMO>『仙女』霄漢中間現仙女，雲霓翩翩舞飛燕。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>350</SN>
+<TYPE>神族</TYPE>
+<HEX>46 01</HEX>
+<NAME>神使</NAME>
+<MEMO>『神使』神使是崑崙仙境的傳令人，有多位輪值。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>351</SN>
+<TYPE>神族</TYPE>
+<HEX>47 01</HEX>
+<NAME>天將</NAME>
+<MEMO>『天將』天將們有廣大法力，能驅雷役電，喚雨呼風，除瘟減瘧。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>352</SN>
+<TYPE>神族</TYPE>
+<HEX>48 01</HEX>
+<NAME>嫦娥</NAME>
+<MEMO>『嫦娥』蘇軾．卜算子『缺月掛疏桐，漏斷人初靜。誰見幽人獨往來，縹緲孤鴻影。驚起卻回頭，有恨無人省。揀盡寒枝不肯棲，寂寞沙洲冷。』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>353</SN>
+<TYPE>神族</TYPE>
+<HEX>49 01</HEX>
+<NAME>飛仙</NAME>
+<MEMO>『飛仙』『眇然萬里遊，矯掌望煙客。』煙客，在天空飛翔的仙人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>354</SN>
+<TYPE>神族</TYPE>
+<HEX>4A 01</HEX>
+<NAME>天仙</NAME>
+<MEMO>『天仙』天仙逍遙，地仙遊，若想修成神仙道，先問自己是何人？</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>355</SN>
+<TYPE>神族</TYPE>
+<HEX>4B 01</HEX>
+<NAME>仙翁</NAME>
+<MEMO>『仙翁』屈原在離騷中寫道：『吾令帝閽開關兮，倚閶闔而望予』帝閽，看守閶闔的人，就是仙翁。閶闔，仙界的大門。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>356</SN>
+<TYPE>神族</TYPE>
+<HEX>54 01</HEX>
+<NAME>左門神</NAME>
+<MEMO>『左門神』門神又稱為『門亟戶尉』，左門神是神荼。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>357</SN>
+<TYPE>神族</TYPE>
+<HEX>55 01</HEX>
+<NAME>右門神</NAME>
+<MEMO>『右門神』門神又稱為『門亟戶尉』，右門神是鬱壘。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>358</SN>
+<TYPE>神族</TYPE>
+<HEX>56 01</HEX>
+<NAME>灶神</NAME>
+<MEMO>『灶神』在民間習俗中，十二月二十三日是當官之人祭拜灶神之日，一般人則在二十四日，而二十五日是花街窯姐兒祭拜之日。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>359</SN>
+<TYPE>神族</TYPE>
+<HEX>57 01</HEX>
+<NAME>狐精仙</NAME>
+<MEMO>『狐精仙』狐要修行千年，方可成仙，在這段期間必須避過金、木、水、火、土五個生死關，躲過冥府點名，從此不歸冥府生死簿的管轄，遊走在三界之中。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>360</SN>
+<TYPE>神族</TYPE>
+<HEX>58 01</HEX>
+<NAME>伏魔石人</NAME>
+<MEMO>『伏魔石人』相傳凡是仙、凡、人、聖、諸侯、天子、貴、賤、賢、愚，落地先從金斗轉劫，不得越此，但伏魔石人不在此列。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>361</SN>
+<TYPE>神族</TYPE>
+<HEX>59 01</HEX>
+<NAME>洛神</NAME>
+<MEMO>『洛神』洛神原為伏羲帝之女，溺死於黃河支流洛水，而成為水神。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>362</SN>
+<TYPE>神族</TYPE>
+<HEX>5A 01</HEX>
+<NAME>土地神</NAME>
+<MEMO>『土地神』土地神乃是依山、水而分的土地守護神，此處所言者乃人類所住之處方圓數十里內的守護神。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>363</SN>
+<TYPE>神族</TYPE>
+<HEX>5B 01</HEX>
+<NAME>尸解仙</NAME>
+<MEMO>『尸解仙』凡人修鍊到一定程度後，以為如果不擺脫臭皮囊將無法成道，所以採取激烈手段分隔靈肉，時人稱之為尸解仙。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>364</SN>
+<TYPE>神族</TYPE>
+<HEX>5E 01</HEX>
+<NAME>洞仙</NAME>
+<MEMO>『洞仙』身形矮小，腰繫葫蘆，常隱藏於高塔之中，伺機襲擊來此之人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>365</SN>
+<TYPE>神族</TYPE>
+<HEX>5F 01</HEX>
+<NAME>地仙</NAME>
+<MEMO>『地仙』已修成正果，但不願獨自昇天而希望留在人界渡化眾人之仙人，被稱為地仙。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>366</SN>
+<TYPE>神族</TYPE>
+<HEX>61 01</HEX>
+<NAME>山神</NAME>
+<MEMO>『山神』在鴻濛未闢的原始山林裡，山呼水嘯，雲霧杳冥，由力拔山兮的山神掌管，維持神秘莫幻的世界。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>367</SN>
+<TYPE>神族</TYPE>
+<HEX>62 01</HEX>
+<NAME>冥府獄卒</NAME>
+<MEMO>『冥府獄卒』負責奉命捉拿從幽冥地府逃出的惡鬼之職。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>368</SN>
+<TYPE>神族</TYPE>
+<HEX>65 01</HEX>
+<NAME>陸吾</NAME>
+<MEMO>『陸吾』性格凶猛，有五顆頭顱，但卻頗有智慧。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>369</SN>
+<TYPE>神族</TYPE>
+<HEX>67 01</HEX>
+<NAME>冥府判官</NAME>
+<MEMO>『冥府判官』來自地府的冥府判官，曾經指出：『天生萬物以養人，人無一物以報天，白天夜裡兩種面貌。』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>370</SN>
+<TYPE>神族</TYPE>
+<HEX>68 01</HEX>
+<NAME>瘟神</NAME>
+<MEMO>『瘟神』生前若為懶鬼或骯髒鬼，死後就會變成的瘟神。且會給人們帶來許多疾病。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>371</SN>
+<TYPE>神族</TYPE>
+<HEX>6B 01</HEX>
+<NAME>風神</NAME>
+<MEMO>『風神』職掌四風：南方凱風、東方谷風、北方涼風、西方泰風。因風神具有促使萬物化生，養物成功的神秘力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>372</SN>
+<TYPE>神族</TYPE>
+<HEX>6C 01</HEX>
+<NAME>雷神</NAME>
+<MEMO>『雷神』雷神常住在雷澤裏面，無憂無慮地拍打著肚子玩耍。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>373</SN>
+<TYPE>神族</TYPE>
+<HEX>6E 01</HEX>
+<NAME>大黑天神</NAME>
+<MEMO>『大黑天神』大黑天神是不知來歷的神祇之一，突然出現，且擁有不下於其他仙人的神通，但不知為何和妖魔同流合污。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>374</SN>
+<TYPE>神族</TYPE>
+<HEX>70 01</HEX>
+<NAME>天吳</NAME>
+<MEMO>『天吳』天吳又稱水伯，身軀為獸還擁有十個臉，為掌水之神。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>375</SN>
+<TYPE>神族</TYPE>
+<HEX>71 01</HEX>
+<NAME>解薦</NAME>
+<MEMO>『解薦』如果解薦看到有人打架，就會用角去撞壞人，聽到有人爭論，就張開大嘴咬那騙子；獨角的神羊，性格忠信。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>376</SN>
+<TYPE>神族</TYPE>
+<HEX>72 01</HEX>
+<NAME>句芒</NAME>
+<MEMO>『句芒』人臉鳥身，掌管生命成長，賜人長壽的生命之神。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>377</SN>
+<TYPE>神族</TYPE>
+<HEX>73 01</HEX>
+<NAME>青牛</NAME>
+<MEMO>『青牛』青牛原本是崑崙仙境的馴獸，後來無意間被置留在地面，經過野放許多世代後，已經野性難馴。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>378</SN>
+<TYPE>神族</TYPE>
+<HEX>74 01</HEX>
+<NAME>玄龜</NAME>
+<MEMO>『玄龜』玄龜，北方之神，龜蛇合體，殼上有騰蛇彎曲纏繞，身上水火相交。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>379</SN>
+<TYPE>神族</TYPE>
+<HEX>75 01</HEX>
+<NAME>白澤</NAME>
+<MEMO>『白澤』白澤是博識之神獸。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>380</SN>
+<TYPE>神族</TYPE>
+<HEX>76 01</HEX>
+<NAME>鳳凰</NAME>
+<MEMO>『鳳凰』鳳凰居丹穴，翔於鴻崖，不與鴟鶚同枝。翅上金光閃閃還雜以五彩虹光，十分豔麗。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>381</SN>
+<TYPE>神族</TYPE>
+<HEX>77 01</HEX>
+<NAME>麒麟</NAME>
+<MEMO>『麒麟』麒麟是祥瑞之獸。自古相傳，帝王是天上神明賜與權力統治人間，如果治理得當，則人間現瑞獸，表示神明肯定治績。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>382</SN>
+<TYPE>神族</TYPE>
+<HEX>E5 01</HEX>
+<NAME>酒仙</NAME>
+<MEMO>『酒仙』在天界擅長釀造仙酒的神，但經常發酒瘋，性格多變。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>383</SN>
+<TYPE>神族</TYPE>
+<HEX>F2 01</HEX>
+<NAME>茶仙</NAME>
+<MEMO>『茶仙』古茶壺通靈成精，好吃茶葉，修煉出神通術但從不傷害任何人。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>384</SN>
+<TYPE>動物</TYPE>
+<HEX>CA 01</HEX>
+<NAME>蛙</NAME>
+<MEMO>『蛙』蛙又叫『陰蟲』，在孫綽賦中記載『靈虯吐注，陰蟲承瀉』。意思為天上神龍吐涎，地上青蛙張開大嘴喝。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>385</SN>
+<TYPE>動物</TYPE>
+<HEX>CB 01</HEX>
+<NAME>三腳蛙</NAME>
+<MEMO>『三腳蛙』三腳蛙能含砂射人，被射中者往往會縮足抽筋，嚴重的還會送命。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>386</SN>
+<TYPE>動物</TYPE>
+<HEX>CC 01</HEX>
+<NAME>毒蝶</NAME>
+<MEMO>『毒蝶』毒蝶的翅膀上，沾滿許多毒粉，攻擊時很容易造成敵人中毒。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>387</SN>
+<TYPE>動物</TYPE>
+<HEX>CD 01</HEX>
+<NAME>蟾蜍</NAME>
+<MEMO>『蟾蜍』蟾蜍背上長滿許多疙瘩，這些疙瘩會分泌許多黏液。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>388</SN>
+<TYPE>動物</TYPE>
+<HEX>CE 01</HEX>
+<NAME>鼠</NAME>
+<MEMO>『鼠』老鼠的個性喜歡穴居，所以人們又叫它『穴蟲』。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>389</SN>
+<TYPE>動物</TYPE>
+<HEX>CF 01</HEX>
+<NAME>蝙蝠</NAME>
+<MEMO>『蝙蝠』晝伏夜出，專吸人血。相傳蝙蝠要捉飛鳥時，會鑽入洞穴變化成鼠；想吃老鼠時，就騰空飛起變成大鳥。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>390</SN>
+<TYPE>動物</TYPE>
+<HEX>D0 01</HEX>
+<NAME>毒蜂</NAME>
+<MEMO>『毒蜂』毒蜂的蜂尾有針，含毒液，可連續刺人或動物。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>391</SN>
+<TYPE>動物</TYPE>
+<HEX>D1 01</HEX>
+<NAME>吸血蝙蝠</NAME>
+<MEMO>『吸血蝙蝠』蝙蝠有許多種類，但都自成一族，不屬於妖魔、飛禽或走獸類。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>392</SN>
+<TYPE>動物</TYPE>
+<HEX>D2 01</HEX>
+<NAME>旋龜</NAME>
+<MEMO>『旋龜』旋龜有鳥形的頭和尖銳的虺尾，會發出一種像破木腐朽的怪聲。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>393</SN>
+<TYPE>動物</TYPE>
+<HEX>D3 01</HEX>
+<NAME>巨蚯蚓</NAME>
+<MEMO>『巨蚯蚓』不同於一般的蚯蚓，深藏於地底，久久才鑽出地面一次，體長約一丈，被纏住即難脫身。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>394</SN>
+<TYPE>動物</TYPE>
+<HEX>D4 01</HEX>
+<NAME>貓</NAME>
+<MEMO>『貓』俗話有云：『貓為虎之舅，教虎百事，獨不教虎上樹。』但此貓為妖貓，連虎都畏懼三分。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>395</SN>
+<TYPE>動物</TYPE>
+<HEX>D5 01</HEX>
+<NAME>巨鼠</NAME>
+<MEMO>『巨鼠』巨鼠體積原本不大，因為誤喝濁溪之水，而變的其大無比。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>396</SN>
+<TYPE>動物</TYPE>
+<HEX>D6 01</HEX>
+<NAME>羊</NAME>
+<MEMO>『羊』博物志裡說『羊而不角呼羖羊，一名胡鬚郎。』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>397</SN>
+<TYPE>動物</TYPE>
+<HEX>D7 01</HEX>
+<NAME>狗</NAME>
+<MEMO>『狗』狗有兩個別名，一是『豺舅』因為豺看見狗就會跪下，好像在拜狗；二是『老虎酒』因為老虎吃狗後，就會醉步蹣跚。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>398</SN>
+<TYPE>動物</TYPE>
+<HEX>D8 01</HEX>
+<NAME>馬</NAME>
+<MEMO>『馬』馬為地精變化而成，所以母馬懷胎十二個月才能生小馬，就是要順應天地陰陽運行之道。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>399</SN>
+<TYPE>動物</TYPE>
+<HEX>D9 01</HEX>
+<NAME>巨蜈蚣</NAME>
+<MEMO>『巨蜈蚣』突變的巨大蜈蚣。其足有劇毒，若沾此毒，七步之內便毒發身亡。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>400</SN>
+<TYPE>動物</TYPE>
+<HEX>DA 01</HEX>
+<NAME>蒼蟒</NAME>
+<MEMO>『蒼蟒』綠色大蟒，喜歡將生物纏繞致死。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>401</SN>
+<TYPE>動物</TYPE>
+<HEX>DB 01</HEX>
+<NAME>山貓</NAME>
+<MEMO>『山貓』兇猛的野生貓科動物。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>402</SN>
+<TYPE>動物</TYPE>
+<HEX>DC 01</HEX>
+<NAME>狐</NAME>
+<MEMO>『狐』狐性善疑，貂性善睡，都是善於躲藏的野獸；所以叫狐為『藏獸』。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>403</SN>
+<TYPE>動物</TYPE>
+<HEX>DD 01</HEX>
+<NAME>牛</NAME>
+<MEMO>『牛』牛是農人最重要的夥伴，所以梵書中稱牛為『瞿摩帝』。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>404</SN>
+<TYPE>動物</TYPE>
+<HEX>DE 01</HEX>
+<NAME>老虎</NAME>
+<MEMO>『老虎』老虎的外號是『斑寅將軍』。生性兇猛，嗜殺成性。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>405</SN>
+<TYPE>動物</TYPE>
+<HEX>DF 01</HEX>
+<NAME>獅子</NAME>
+<MEMO>『獅子』梵書中稱獅子為『僧迦彼』，意思是百獸之長。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>406</SN>
+<TYPE>動物</TYPE>
+<HEX>E0 01</HEX>
+<NAME>白虎</NAME>
+<MEMO>『白虎』人們敬畏白虎的威嚴，所以又叫白虎為『山獸之君』。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>407</SN>
+<TYPE>動物</TYPE>
+<HEX>E1 01</HEX>
+<NAME>鴆</NAME>
+<MEMO>『鴆』鴆是全身上下都會分泌致命毒液的鳥。光是被碰到都很危險。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>408</SN>
+<TYPE>符</TYPE>
+<HEX>BE 00</HEX>
+<NAME>氣聚符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>409</SN>
+<TYPE>符</TYPE>
+<HEX>BF 00</HEX>
+<NAME>祭雲符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>410</SN>
+<TYPE>符</TYPE>
+<HEX>C0 00</HEX>
+<NAME>疾電符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>411</SN>
+<TYPE>符</TYPE>
+<HEX>C1 00</HEX>
+<NAME>退雲符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>412</SN>
+<TYPE>符</TYPE>
+<HEX>C2 00</HEX>
+<NAME>放雨符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>413</SN>
+<TYPE>符</TYPE>
+<HEX>C3 00</HEX>
+<NAME>風雲神紙</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>414</SN>
+<TYPE>符</TYPE>
+<HEX>C4 00</HEX>
+<NAME>霧縛符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>415</SN>
+<TYPE>符</TYPE>
+<HEX>C5 00</HEX>
+<NAME>冰石亂墜符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>416</SN>
+<TYPE>符</TYPE>
+<HEX>C6 00</HEX>
+<NAME>封魔符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>417</SN>
+<TYPE>符</TYPE>
+<HEX>C7 00</HEX>
+<NAME>雷擊符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>418</SN>
+<TYPE>符</TYPE>
+<HEX>C8 00</HEX>
+<NAME>天雷符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>419</SN>
+<TYPE>符</TYPE>
+<HEX>C9 00</HEX>
+<NAME>火雲神紙</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>420</SN>
+<TYPE>符</TYPE>
+<HEX>CA 00</HEX>
+<NAME>龍吟鬼啕符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>421</SN>
+<TYPE>符</TYPE>
+<HEX>CB 00</HEX>
+<NAME>氣還符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>422</SN>
+<TYPE>符</TYPE>
+<HEX>CC 00</HEX>
+<NAME>代形符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>423</SN>
+<TYPE>符</TYPE>
+<HEX>CD 00</HEX>
+<NAME>入夢符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>424</SN>
+<TYPE>符</TYPE>
+<HEX>CE 00</HEX>
+<NAME>祭火符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>425</SN>
+<TYPE>符</TYPE>
+<HEX>CF 00</HEX>
+<NAME>收火符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>426</SN>
+<TYPE>符</TYPE>
+<HEX>D0 00</HEX>
+<NAME>蝕傷符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>427</SN>
+<TYPE>符</TYPE>
+<HEX>D1 00</HEX>
+<NAME>風火神紙</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>428</SN>
+<TYPE>符</TYPE>
+<HEX>D2 00</HEX>
+<NAME>火珠符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>429</SN>
+<TYPE>符</TYPE>
+<HEX>D3 00</HEX>
+<NAME>破法符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>430</SN>
+<TYPE>符</TYPE>
+<HEX>D4 00</HEX>
+<NAME>定身符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>431</SN>
+<TYPE>符</TYPE>
+<HEX>D5 00</HEX>
+<NAME>火龍吐炎符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>432</SN>
+<TYPE>符</TYPE>
+<HEX>D6 00</HEX>
+<NAME>三眛真火符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>433</SN>
+<TYPE>符</TYPE>
+<HEX>D7 00</HEX>
+<NAME>朱雀振翅符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>434</SN>
+<TYPE>符</TYPE>
+<HEX>D8 00</HEX>
+<NAME>伏虎符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>435</SN>
+<TYPE>符</TYPE>
+<HEX>D9 00</HEX>
+<NAME>驚鬼符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>436</SN>
+<TYPE>符</TYPE>
+<HEX>DA 00</HEX>
+<NAME>降龍符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>437</SN>
+<TYPE>符</TYPE>
+<HEX>DB 00</HEX>
+<NAME>玄武抗魔符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>438</SN>
+<TYPE>符</TYPE>
+<HEX>DC 00</HEX>
+<NAME>十邪散魂符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>439</SN>
+<TYPE>符</TYPE>
+<HEX>DD 00</HEX>
+<NAME>結命符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>440</SN>
+<TYPE>符</TYPE>
+<HEX>DE 00</HEX>
+<NAME>祭風符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>441</SN>
+<TYPE>符</TYPE>
+<HEX>DF 00</HEX>
+<NAME>止風符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>442</SN>
+<TYPE>符</TYPE>
+<HEX>E0 00</HEX>
+<NAME>轉風符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>443</SN>
+<TYPE>符</TYPE>
+<HEX>E1 00</HEX>
+<NAME>冰火轉輪符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>444</SN>
+<TYPE>符</TYPE>
+<HEX>E2 00</HEX>
+<NAME>踏風符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>445</SN>
+<TYPE>符</TYPE>
+<HEX>E3 00</HEX>
+<NAME>帶火風輪符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>446</SN>
+<TYPE>符</TYPE>
+<HEX>E4 00</HEX>
+<NAME>散冰風輪符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>447</SN>
+<TYPE>符</TYPE>
+<HEX>E5 00</HEX>
+<NAME>鬼哭符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>448</SN>
+<TYPE>符</TYPE>
+<HEX>E6 00</HEX>
+<NAME>猛虎鎮鬼符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>449</SN>
+<TYPE>符</TYPE>
+<HEX>E7 00</HEX>
+<NAME>無風輪符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>450</SN>
+<TYPE>符</TYPE>
+<HEX>E8 00</HEX>
+<NAME>虎嘯驚魂符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>451</SN>
+<TYPE>符</TYPE>
+<HEX>E9 00</HEX>
+<NAME>五毒符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>452</SN>
+<TYPE>符</TYPE>
+<HEX>EA 00</HEX>
+<NAME>反陰補天符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>453</SN>
+<TYPE>符</TYPE>
+<HEX>EB 00</HEX>
+<NAME>五破符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>454</SN>
+<TYPE>符</TYPE>
+<HEX>EC 00</HEX>
+<NAME>炎龍吐珠符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>455</SN>
+<TYPE>符</TYPE>
+<HEX>ED 00</HEX>
+<NAME>金蟬脫殼符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>456</SN>
+<TYPE>符</TYPE>
+<HEX>EE 00</HEX>
+<NAME>土地神符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>457</SN>
+<TYPE>符</TYPE>
+<HEX>EF 00</HEX>
+<NAME>祠符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>458</SN>
+<TYPE>符</TYPE>
+<HEX>F0 00</HEX>
+<NAME>喚魂符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>459</SN>
+<TYPE>符</TYPE>
+<HEX>F1 00</HEX>
+<NAME>透骨正氣符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>460</SN>
+<TYPE>符</TYPE>
+<HEX>F2 00</HEX>
+<NAME>渾氣符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>461</SN>
+<TYPE>符</TYPE>
+<HEX>F3 00</HEX>
+<NAME>順脈符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>462</SN>
+<TYPE>符</TYPE>
+<HEX>F4 00</HEX>
+<NAME>風砂甘霖符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>463</SN>
+<TYPE>符</TYPE>
+<HEX>F5 00</HEX>
+<NAME>解石化符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>464</SN>
+<TYPE>符</TYPE>
+<HEX>F6 00</HEX>
+<NAME>雞啼符</NAME>
+</SWD2LIST>
+<SWD2LIST>
+<SN>465</SN>
+<TYPE>龍族</TYPE>
+<HEX>4D 01</HEX>
+<NAME>龍人</NAME>
+<MEMO>『龍人』龍人是龍與人共同的子孫。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>466</SN>
+<TYPE>龍族</TYPE>
+<HEX>4E 01</HEX>
+<NAME>妖龍</NAME>
+<MEMO>『妖龍』若妖龍出現，則會影響天上雨水失調，使得百姓的無法收成。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>467</SN>
+<TYPE>龍族</TYPE>
+<HEX>4F 01</HEX>
+<NAME>黑龍</NAME>
+<MEMO>『黑龍』有雲的時候黑龍可以翱翔雲端，一旦雲霧消散後便與蚯蚓無異。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>468</SN>
+<TYPE>龍族</TYPE>
+<HEX>50 01</HEX>
+<NAME>青龍</NAME>
+<MEMO>『青龍』前人稱為蒼龍。在天象中，東方的星宿被稱為蒼龍之宿。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>469</SN>
+<TYPE>龍族</TYPE>
+<HEX>51 01</HEX>
+<NAME>龍王</NAME>
+<MEMO>『龍王』龍王是龍人一族的王，擁有變化人或神龍的能力。</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>470</SN>
+<TYPE>龍族</TYPE>
+<HEX>52 01</HEX>
+<NAME>神龍</NAME>
+<MEMO>『神龍』神龍為鱗蟲之精，在傳說中是『頭似駝、眼似兔、耳似牛、項似蛇、腹似蜃、鱗似鯉、爪似鷹、掌似虎、．．．．．．其背有八十一鱗、口旁有鬍鬚、頷下有明珠、喉下有逆鱗、頭上有博山，又名尺木。』</MEMO>
+</SWD2LIST>
+<SWD2LIST>
+<SN>471</SN>
+<TYPE>龍族</TYPE>
+<HEX>53 01</HEX>
+<NAME>應龍</NAME>
+<MEMO>『應龍』擁有引雲致雨的能力。</MEMO>
+</SWD2LIST>
+</dataroot>

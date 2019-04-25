@@ -1,0 +1,52 @@
+C:\Users\rd04\AppData\Local\Temporary Projects\HEXEdit\bin\Debug\HEXEdit.exe
+C:\Users\rd04\AppData\Local\Temporary Projects\HEXEdit\bin\Debug\HEXEdit.pdb
+C:\Users\rd04\AppData\Local\Temporary Projects\HEXEdit\bin\Debug\HEXEdit.xml
+C:\Users\rd04\AppData\Local\Temporary Projects\HEXEdit\obj\x86\Debug\HEXEdit.frmMain.resources
+C:\Users\rd04\AppData\Local\Temporary Projects\HEXEdit\obj\x86\Debug\HEXEdit.MDIMain.resources
+C:\Users\rd04\AppData\Local\Temporary Projects\HEXEdit\obj\x86\Debug\HEXEdit.Resources.resources
+C:\Users\rd04\AppData\Local\Temporary Projects\HEXEdit\obj\x86\Debug\HEXEdit.vbproj.GenerateResource.Cache
+C:\Users\rd04\AppData\Local\Temporary Projects\HEXEdit\obj\x86\Debug\HEXEdit.exe
+C:\Users\rd04\AppData\Local\Temporary Projects\HEXEdit\obj\x86\Debug\HEXEdit.xml
+C:\Users\rd04\AppData\Local\Temporary Projects\HEXEdit\obj\x86\Debug\HEXEdit.pdb
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.exe
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.xml
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.pdb
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\bin\Debug\HEXEdit.exe
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\bin\Debug\HEXEdit.pdb
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\bin\Debug\HEXEdit.xml
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.frmMain.resources
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.MDIMain.resources
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.Resources.resources
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.vbproj.GenerateResource.Cache
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.MDIMainOld.resources
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.frmSWD2.resources
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.frmHEX2DEC.resources
+C:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\bin\Debug\HEXEdit.exe.config
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\bin\Debug\HEXEdit.exe.config
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.xml
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.pdb
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\bin\Debug\HEXEdit.exe
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\bin\Debug\HEXEdit.pdb
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\bin\Debug\HEXEdit.xml
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.frmHEX2DEC.resources
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.frmMain.resources
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.frmSWD2.resources
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.MDIMain.resources
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.MDIMainOld.resources
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.Resources.resources
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.vbproj.GenerateResource.Cache
+D:\Users\rd04\Documents\Visual Studio 2010\Projects\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.exe
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\bin\Debug\HEXEdit.exe.config
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.exe
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.xml
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.pdb
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\bin\Debug\HEXEdit.exe
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\bin\Debug\HEXEdit.pdb
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\bin\Debug\HEXEdit.xml
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.frmHEX2DEC.resources
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.frmMain.resources
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.frmSWD2.resources
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.MDIMain.resources
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.MDIMainOld.resources
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.Resources.resources
+D:\Users\rd04\Dropbox\我做的東西\MyTool\HEXEdit\HEXEdit\obj\x86\Debug\HEXEdit.vbproj.GenerateResource.Cache
